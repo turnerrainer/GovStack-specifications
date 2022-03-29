@@ -18,7 +18,9 @@ Interaction between applications which are participants of the GovStack ecosyste
 
 ## **4.3 Specific Functionalities**
 
-_**Please note that the source/master-copy of these tables are maintained on this**_ [_**Google sheet**_](https://docs.google.com/spreadsheets/d/1eHkmTwUzgFL7-vU8JLYqybTgTtL6SFTSgtbdihfvEZQ) _**and may be updated by clicking the “refresh” button below.**_
+{% hint style="info" %}
+Please note that the source/master-copy of these tables are maintained on this [Google sheet](https://docs.google.com/spreadsheets/d/1eHkmTwUzgFL7-vU8JLYqybTgTtL6SFTSgtbdihfvEZQ) and may be updated by clicking the “refresh” button below.
+{% endhint %}
 
 ### **4.3.1 Key Digital Functionalities Table (KDFs)**
 
@@ -77,4 +79,4 @@ Below are the key Information mediation requirements from their [OHIE architectu
 
 #### **4.3.3.2 Gov.UK’s API Management Strategy Document**
 
-In future iterations of this specification, we may take into consideration more broad API-management standards which include multiple domains, such as those proposed by the UK Government in their [https://www.gov.uk/guidance/defining-an-api-management-strategy document](https://www.gov.uk/guidance/defining-an-api-management-strategy). ****&#x20;
+In future iterations of this specification, we may take into consideration more broad API-management standards which include multiple domains, such as those proposed by the UK Government in their [https://www.gov.uk/guidance/defining-an-api-management-strategy document](https://www.gov.uk/guidance/defining-an-api-management-strategy). \*\*\*\*
