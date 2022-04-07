@@ -19,11 +19,11 @@ The no-code development platform acts as a rules engine, a screens (user interfa
 * **Screens** (user interface) and flow builder: a tool for a human analyst to create and organize the screens and fields that are necessary for the registration (application file) and processing.&#x20;
 * **Controls configurator**: a tool for a human analyst to define, for each field in the application file and processing screens, what controls will be applied (input format, formulas, actions/checks between fields and with external databases).
 
-![Illustration 1- Example of configuration of the rules engine (UNCTAD’s eRegistrations).](../.gitbook/assets/image6.jpg)
+![Illustration 1- Example of configuration of the rules engine (UNCTAD’s eRegistrations).](../../.gitbook/assets/image6.jpg)
 
-![Illustration 2 - Example of the user interface builder (UNCTAD’s eRegistrations).](<../.gitbook/assets/image3 (2).png>)
+![Illustration 2 - Example of the user interface builder (UNCTAD’s eRegistrations).](<../../.gitbook/assets/image3 (2).png>)
 
-![Illustration 3 - Example of flow builder (UNCTAD’s eRegistrations).](<../.gitbook/assets/image7 (1) (1).png>)
+![Illustration 3 - Example of flow builder (UNCTAD’s eRegistrations).](<../../.gitbook/assets/image7 (1) (1).png>)
 
 ## 3.2 The Online Registration Services <a href="#docs-internal-guid-d85f59a4-7fff-1564-6ae2-86d67f36a258" id="docs-internal-guid-d85f59a4-7fff-1564-6ae2-86d67f36a258"></a>
 

@@ -30,16 +30,16 @@ There are three options for the disbursement,&#x20;
 
 **Option 1**: Retail Payment Information is Sent Securely to Each Payment Service Provider for Disbursement
 
-![Payments building block diagrams.drawio - diagrams.net](../.gitbook/assets/image20.png)
+![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/image20.png)
 
 **Option 2**: Retail payments are accessed via a payment web portal by the Payment Service Provider the advice/electronic fund transfer request, or paper-based check is issued from the Financial Management Information System to the TSA-holding Bank.\
 Based on this advice, the Bank disburses funds from the Trusted Single Account (TSA) into the  digital payments system of  the FSP which transfers the corresponding funds to the recipient’s account. For the retail payment scrolls, where each agency is responsible for running the payment system - payroll, social welfare payments, etc - the payment details are not stored in those systems. Instead, the beneficiary’s payment token is retrieved from the Centralised Account Lookup Directory Service and kept in the government payment portal.. The payment lists are only shared with the program account holder institution/FSP, PSP, via the government payment portal. The FSP/PSP can log in on the government web portal to access the directory for payments that the FSP needs to effect for each G2P Program.&#x20;
 
-![Payments building block diagrams.drawio - diagrams.net](<../.gitbook/assets/image8 (1).png>)
+![Payments building block diagrams.drawio - diagrams.net](<../../.gitbook/assets/image8 (1).png>)
 
 **Option 3**: Similar to option 2 but the disbursement process to the beneficiary is routed automatically through the payment gateway using the payment token retrieved from the decentralised account lookup directory service.
 
-![Payments building block diagrams.drawio - diagrams.net](../.gitbook/assets/image2.png)
+![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/image2.png)
 
 Bulk payments require the functionality of a Payments Gateway and the functionality therein. It also assumes a separate mechanism by which the recipient account address is determined. In the figure below the “account lookup directory service” functionality maps the concept of identity to the payment alias and from there to the FSP (financial service provider) routing address. (i.e. wallet address or account address)
 
@@ -49,7 +49,7 @@ This workflow requires interaction with the registries building Blocks
 
 At a high level, the payment components used for bulk payments are shown in the figure below.
 
-![Payments building block diagrams.drawio - diagrams.net](../.gitbook/assets/image24.png)
+![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/image24.png)
 
 **10.2.1.4 Sequence Diagram**
 
@@ -68,7 +68,7 @@ The sequence diagram shows the flow of data between building blocks for bulk pay
 
 Bulk payment service system does reconciliation on accounts paid/not paid and communicates that back to the beneficiary system as well.&#x20;
 
-![https://www.websequencediagrams.com/#open=768631](../.gitbook/assets/image29.png)
+![https://www.websequencediagrams.com/#open=768631](../../.gitbook/assets/image29.png)
 
 #### 10.2.2 Disbursement to Beneficiary Using Mobile Money <a href="#docs-internal-guid-30610214-7fff-b023-24dd-ddf9a6ed5ea9" id="docs-internal-guid-30610214-7fff-b023-24dd-ddf9a6ed5ea9"></a>
 
@@ -98,7 +98,7 @@ The Voucher Management System supports at least three workflows for:&#x20;
 
 The use cases are described in the section below:
 
-![Payments building block diagrams.drawio - diagrams.net](../.gitbook/assets/image15.png)
+![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/image15.png)
 
 #### **10.3.1.1 Admin Process**
 
@@ -131,7 +131,7 @@ The sequence diagram shows the flow of data between building blocks for this wor
 
 The voucher activation flow is shown in the diagram below.
 
-![Link to edit: https://drive.google.com/file/d/1F11u50rrWIuGcnO0JjdhQHS-5if00I2B/view?usp=sharing](../.gitbook/assets/image30.png)
+![Link to edit: https://drive.google.com/file/d/1F11u50rrWIuGcnO0JjdhQHS-5if00I2B/view?usp=sharing](../../.gitbook/assets/image30.png)
 
 Flow Description:
 
@@ -158,7 +158,7 @@ at the Payment Orchestrator..
 
 The voucher redemption is shown in the diagram below.
 
-![Link to edit:  https://app.diagrams.net/#G1F11u50rrWIuGcnO0JjdhQHS-5if00I2B](../.gitbook/assets/image6.png)
+![Link to edit:  https://app.diagrams.net/#G1F11u50rrWIuGcnO0JjdhQHS-5if00I2B](../../.gitbook/assets/image6.png)
 
 Flow Description:
 
@@ -188,7 +188,7 @@ Assumptions:
 
 **Sample Redemption**
 
-![Source: Kenya Government and WFP Disburse Relief Cash to Drought Stricken Families accessed 05-Sep-21](<../.gitbook/assets/image12 (1).png>)
+![Source: Kenya Government and WFP Disburse Relief Cash to Drought Stricken Families accessed 05-Sep-21](<../../.gitbook/assets/image12 (1).png>)
 
 Note:
 
@@ -198,7 +198,7 @@ In the case of a physical voucher the voucher number or the secret number is hid
 
 The voucher cancellation flow is shown in the diagram below.
 
-![https://app.diagrams.net/#G1F11u50rrWIuGcnO0JjdhQHS-5if00I2B](../.gitbook/assets/image23.png)
+![https://app.diagrams.net/#G1F11u50rrWIuGcnO0JjdhQHS-5if00I2B](../../.gitbook/assets/image23.png)
 
 Flow Description:
 
@@ -264,7 +264,7 @@ General Notes:
 
 * &#x20;It is assumed that all APIs used are real (sync or async).
 
-![Link to Edit Diagram](<../.gitbook/assets/image7 (1).png>)
+![Link to Edit Diagram](<../../.gitbook/assets/image7 (1).png>)
 
 Flow Description:&#x20;
 
@@ -285,7 +285,7 @@ The above model requires that the payer must provide two pieces of information t
 
 ### 10.4.4 Sequence Diagram - P2G FSP Payment by USSD Prompt
 
-![](../.gitbook/assets/image26.png)
+![](../../.gitbook/assets/image26.png)
 
 Flow Description:
 

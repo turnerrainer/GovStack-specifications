@@ -14,7 +14,7 @@ A “member” on the <mark style="background-color:purple;">information mediato
 
 The security server client registration passes following states:
 
-![Source in github: https://github.com/GovStackWorkingGroup/BuildingBlockAPI/blob/main/IM/diagrams/state-machine-diagram-for-registration-requests.png](<../../.gitbook/assets/dd1 (1).png>)
+![Source in github: https://github.com/GovStackWorkingGroup/BuildingBlockAPI/blob/main/IM/diagrams/state-machine-diagram-for-registration-requests.png](<../../../.gitbook/assets/dd1 (1).png>)
 
 ### 14.1.3 Adding a Security Server Client
 

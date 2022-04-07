@@ -23,7 +23,7 @@ There is no one-fits-all solution and often a combination of those approaches en
 
 The diagram below shows the high level view of the IDV BB.
 
-![IDV BB offers 5 different external APIs:](<../.gitbook/assets/image3 (2) (1).png>)
+![IDV BB offers 5 different external APIs:](<../../.gitbook/assets/image3 (2) (1).png>)
 
 
 
@@ -66,7 +66,7 @@ It includes internal sub-building blocks/ modules, notably:
 
 The graphic below presents the overall view of the Identity System with its main components.
 
-![](../.gitbook/assets/image1.png)
+![](../../.gitbook/assets/image1.png)
 
 ### 4.2.1  Specificity of the Identity Registration System <a href="#docs-internal-guid-e09f58bb-7fff-caf2-898d-459280440ea3" id="docs-internal-guid-e09f58bb-7fff-caf2-898d-459280440ea3"></a>
 
@@ -82,4 +82,4 @@ The client has to deal with secure interfacing; where biometrics is being used w
 
 It happens that some countries have an existing identity system they choose to reuse, like for example a National Population Register, a Civil Register or ID Document system. In that case the existing system will need to be equipped with the IDV BB Services Facade which will make its integration transparent toward the remainder of the GovStack.
 
-![](<../.gitbook/assets/image2 (1).png>)
+![](<../../.gitbook/assets/image2 (1).png>)

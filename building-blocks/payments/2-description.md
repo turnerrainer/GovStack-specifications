@@ -4,7 +4,7 @@ The Payments Building Block enables digital financial payments to be tracked, ev
 
 The Payments Building Block consists of components that enable multiple use cases in a generic manner. The use cases, including Government to Person(G2P), Person to Government (P2G), Government to business (G2B) and Business to Government (B2G), The existing commercial Payments schemes are heterogenous across regions and countries, the Payments BB assumes that some components are optional when considering implementation. The payments BB covers components that can be used to deliver the key functionalities and the connections to existing systems in the market, but does not contemplate building a new payments scheme
 
-![](../.gitbook/assets/image21.png)
+![](../../.gitbook/assets/image21.png)
 
 ## 2.1 Financial Inclusion, Banks and Mobile Money Accounts  <a href="#docs-internal-guid-40250f7c-7fff-0e7b-4de3-b9ba0376cbfc" id="docs-internal-guid-40250f7c-7fff-0e7b-4de3-b9ba0376cbfc"></a>
 

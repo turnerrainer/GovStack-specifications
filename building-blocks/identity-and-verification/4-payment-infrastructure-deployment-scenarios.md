@@ -32,7 +32,7 @@ The flow of funds and the flow of data are separate but equally important and th
 
 Regional Switch (or a switch of switches) connects financial service providers including banks and non-banks.
 
-![Payments building block diagrams.drawio - diagrams.net](../.gitbook/assets/image19.png)
+![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/image19.png)
 
 ### 4.2.2 Payment Infrastructure Scenario 2-A <a href="#docs-internal-guid-d25fd375-7fff-8960-0f04-e0264cd1ef40" id="docs-internal-guid-d25fd375-7fff-8960-0f04-e0264cd1ef40"></a>
 
@@ -40,37 +40,37 @@ Scenario 2-A and Scenario 2-B cover the concept of separating flows of data from
 
 The Central  Bank receives the funds transfer advice from the Treasury and the data from the Ministry of Health and does the steps of breaking it into bulk, based on rules of capacity of source and destination systems.  Payments are then routed “on-us” or to the external financial providers “off-us” via a payment switch or similar mechanism.&#x20;
 
-![Payments building block diagrams.drawio - diagrams.net](../.gitbook/assets/image18.png)
+![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/image18.png)
 
 ### 4.2.3 Payment Infrastructure Scenario 2-B   <a href="#docs-internal-guid-17ea0a05-7fff-b78a-f66d-b1db5a50b0ac" id="docs-internal-guid-17ea0a05-7fff-b78a-f66d-b1db5a50b0ac"></a>
 
 The Central Bank plays a key role as a participant in the Payment scheme and routes the payment details and funds via a shared service of the payment switch.  Same logic of break-bulk applies and with all transactions effectively “off-us”.
 
-![Payments building block diagrams.drawio - diagrams.net](../.gitbook/assets/image31.png)
+![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/image31.png)
 
 ### 4.2.4 Payment infrastructure scenario 3 <a href="#docs-internal-guid-f20210d1-7fff-6f46-031b-a7efd42f0e27" id="docs-internal-guid-f20210d1-7fff-6f46-031b-a7efd42f0e27"></a>
 
 Government should leverage third-party aggregators to enable payment use-cases to reach mobile money providers
 
-![Payments building block diagrams.drawio - diagrams.net](../.gitbook/assets/image5.png)
+![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/image5.png)
 
 ### 4.2.5 Payment Infrastructure Scenario 4 <a href="#docs-internal-guid-f33d82c3-7fff-6366-eea9-62a6308c58de" id="docs-internal-guid-f33d82c3-7fff-6366-eea9-62a6308c58de"></a>
 
 A payment switch is not in place or in the process of being deployed. Government should leverage third-party aggregators or bilateral connections to enable payment use-cases to reach mobile money providers.  In the bilateral connection scenario, each mobile money provider in the country would connect to the government portal through APIs, enabling a seamless transfer of funds to end users (in the case of G2P payments) or the receiving of funds from end users (in the case of P2G payments) and facilitate reporting, reconciliation and settlement processes.
 
-![Payments building block diagrams.drawio - diagrams.net](<../.gitbook/assets/image17 (2).png>)
+![Payments building block diagrams.drawio - diagrams.net](<../../.gitbook/assets/image17 (2).png>)
 
 #### 4.2.6 Payment Infrastructure Scenario 5 <a href="#docs-internal-guid-69c7a646-7fff-5eeb-a45c-645b0d3ee524" id="docs-internal-guid-69c7a646-7fff-5eeb-a45c-645b0d3ee524"></a>
 
 The Central Bank mints digital currency and distributes funds via regulated entities (e.g. Payment Service Providers), and in the case of G2P sends funds to destination accounts known to the Ministry of Finance.  Account information is unitary and unique for all beneficiaries (e.g. citizens) but the Central Bank does not “hold” account balances on an individual basis. &#x20;
 
-![Payments building block diagrams.drawio - diagrams.net](<../.gitbook/assets/image14 (1).png>)
+![Payments building block diagrams.drawio - diagrams.net](<../../.gitbook/assets/image14 (1).png>)
 
 ### 4.2.7 Payment Infrastructure Scenario 6 <a href="#docs-internal-guid-4df537db-7fff-1474-df07-653ff0c8025e" id="docs-internal-guid-4df537db-7fff-1474-df07-653ff0c8025e"></a>
 
 The Central Bank directly provides Digital Accounts for all people (Citizens) and Treasury routes funds to the relevant accounts (uniquely and unitarily held by people). &#x20;
 
-![Payments building block diagrams.drawio - diagrams.net ](../.gitbook/assets/image14.png)
+![Payments building block diagrams.drawio - diagrams.net ](../../.gitbook/assets/image14.png)
 
 
 

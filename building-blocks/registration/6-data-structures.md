@@ -15,7 +15,7 @@ The following standards are applicable to data structures in the registration bu
 
 The resource model provides a basic description of each data object that is used by the building block. It also shows the relationship between data objects.
 
-![Illustration 4 - Resource model. See editable diagram here](<../.gitbook/assets/image16 (1).png>)
+![Illustration 4 - Resource model. See editable diagram here](<../../.gitbook/assets/image16 (1).png>)
 
 ## 6.3 Data Elements  <a href="#docs-internal-guid-719783cd-7fff-5c75-35f4-db5323cd903f" id="docs-internal-guid-719783cd-7fff-5c75-35f4-db5323cd903f"></a>
 

@@ -14,9 +14,9 @@ Example 2: ​/api/v1/database/modify
 
 Each registry contains a unique set of data and the BB enables an Analyst to change the data storage structure/schema on the fly. In this following example API descriptions are generated for one example dataset for the Postpartum Infant Care Program registry, where Caretaker and infant child is registered and registration ID is issued.
 
-![xample registry database logical data model. Editable version is here.](<../.gitbook/assets/Logical datamodel MCTS (1).JPG>)
+![xample registry database logical data model. Editable version is here.](<../../.gitbook/assets/Logical datamodel MCTS (1).JPG>)
 
-![Example registry database Json schema.](<../.gitbook/assets/image4 (1) (1) (1).png>)
+![Example registry database Json schema.](<../../.gitbook/assets/image4 (1) (1) (1).png>)
 
 Digital registries BB is expected to host the following API services for each database hosted on the platform
 

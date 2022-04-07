@@ -23,7 +23,7 @@ As a post-condition, the e-Service has beglossaryen published on the internet fo
 
 User journey is the step by step journey that a user takes to reach their goal. This journey consists of a number of website pages/screens and decision points that carry the user from one step to another. The user journey is used to map out the current journey a typical user might take to reach their goal
 
-![Illustration 6- user journey of creating a registration service. See editable file here.](<../.gitbook/assets/image11 (1).png>)
+![Illustration 6- user journey of creating a registration service. See editable file here.](<../../.gitbook/assets/image11 (1).png>)
 
 ### 8.1.3  Interaction with Other Building Blocks <a href="#docs-internal-guid-67b89c8a-7fff-6917-6030-b4cb08422e15" id="docs-internal-guid-67b89c8a-7fff-6917-6030-b4cb08422e15"></a>
 
@@ -46,7 +46,7 @@ For each interaction, the following information is provided:
 
 **Name**: Authentication - Existing user authentication (Security BB)
 
-![Illustration 7 - Authentication and authorization. See editable diagram.](../.gitbook/assets/image8.png)
+![Illustration 7 - Authentication and authorization. See editable diagram.](../../.gitbook/assets/image8.png)
 
 **Notes:**\
 ****Pre-requirements: user has passed the provisioning of user credentials and this can authenticate/log in to Govstack (sandbox) system. User roles are also added by Security (IAM) system when token is sent to the Building Block. Registration BB in this case is operating as Building Block. \
@@ -65,7 +65,7 @@ Data structures:
 
 **Sequence Diagram via Self-Registration**:&#x20;
 
-![Illustration 8- Self registration See editable diagram. ](<../.gitbook/assets/image5 (1).png>)
+![Illustration 8- Self registration See editable diagram. ](<../../.gitbook/assets/image5 (1).png>)
 
 **Notes**:
 
@@ -75,7 +75,7 @@ See full description of the User registration in [Security BB documentation](htt
 
 **Sequence Diagram for User Self Registration via Foundational ID:**
 
-![Illustration 9- Self registration via foundational ID. See an editable diagram.](../.gitbook/assets/image12.png)
+![Illustration 9- Self registration via foundational ID. See an editable diagram.](../../.gitbook/assets/image12.png)
 
 **Notes**:\
 ****Pre-requirements: user does not have user credentials to authenticate/log in to Govstack (sandbox) system.  Registration BB in this case is operating as Building Block UI.   See full description of the User registration in [Security BB documentation](https://docs.google.com/document/d/1ZuR52EJm-iWWXCNpkAEZXFPRF1Cg1ciJ/edit#heading=h.1gyijs8ue9t).
@@ -86,7 +86,7 @@ See full description of the User registration in [Security BB documentation](htt
 
 Sequence diagram:&#x20;
 
-![Illustration 10- IM API description. See Websequencediagrams for an editable diagram.](<../.gitbook/assets/image10 (1).png>)
+![Illustration 10- IM API description. See Websequencediagrams for an editable diagram.](<../../.gitbook/assets/image10 (1).png>)
 
 **Data structures:**
 
@@ -102,7 +102,7 @@ Sequence diagram:&#x20;
 
 **Sequence diagram:**&#x20;
 
-![Illustration 11- Request payment options. See https://app.diagrams.net/  for an editable diagram.](<../.gitbook/assets/image1 (1) (1).png>)
+![Illustration 11- Request payment options. See https://app.diagrams.net/  for an editable diagram.](<../../.gitbook/assets/image1 (1) (1).png>)
 
 **Data structures:**
 
@@ -119,12 +119,12 @@ Sequence diagram:&#x20;
 Setup in one shared instance is required when one single window service is built together with multiple institutions (multiple registrations inside one service). This enables sharing of resources such as proceflow, screens, data, user rights, infrastructure, maintenance personnel etc. &#x20;
 
 ![Illustration 14 - Domain specific  setup diagram for multiple Registration BB-s in one ecosystem.
-See Diagrams.net for an editable diagram.](../.gitbook/assets/image9.png)
+See Diagrams.net for an editable diagram.](../../.gitbook/assets/image9.png)
 
 In other cases the Registration BBs can be installed in different instances (domain specific instances- see illustration 2 below) and in this case the BBs are not sharing resources and are not communicating with the other Registration BB. In these standalone instances the BBs are communicating with Information Mediator BB and other BBs as any other BBs.
 
 ![Illustration 15 - Domain specific  setup diagram for multiple Registration BBs in one ecosystem.
-See Diagrams.net for an editable diagram.](../.gitbook/assets/image13.png)
+See Diagrams.net for an editable diagram.](../../.gitbook/assets/image13.png)
 
 ## 8.2 Workflow- Using a Registration Service  <a href="#docs-internal-guid-6bac7ec4-7fff-2f07-f48f-168981104eec" id="docs-internal-guid-6bac7ec4-7fff-2f07-f48f-168981104eec"></a>
 
@@ -143,7 +143,7 @@ As a post condition, the applicant was able to fill a registration form and subm
 
 **Sequence Diagram:**
 
-![Illustration 12 - The process of filing an application file. See editable version here  ](<../.gitbook/assets/image15 (1).png>)
+![Illustration 12 - The process of filing an application file. See editable version here  ](<../../.gitbook/assets/image15 (1).png>)
 
 
 
@@ -172,7 +172,7 @@ Use case: e-service user initiates a registration service to  issue a payment vo
 
 **Sequence diagram**:&#x20;
 
-![Illustration 13 - Voucher issuing diagram. See https://app.diagrams.net/  for an editable diagram. ](<../.gitbook/assets/image14 (2).png>)
+![Illustration 13 - Voucher issuing diagram. See https://app.diagrams.net/  for an editable diagram. ](<../../.gitbook/assets/image14 (2).png>)
 
 **Data structures**:
 

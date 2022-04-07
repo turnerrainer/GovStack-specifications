@@ -32,7 +32,7 @@ The second main user is an **Applicant** who is consuming registry data via othe
 
 The BB has a user interface to query and consult the registry data but in most cases the Applicants are using the end client applications like Registration BB to access the registry. Any building block can query data from Digital Registries BB via APIs if authorization is given.
 
-![Digital registries functional components](<../.gitbook/assets/image3 (1).png>)
+![Digital registries functional components](<../../.gitbook/assets/image3 (1).png>)
 
 ## 4.1 Out of Scope Assumptions
 

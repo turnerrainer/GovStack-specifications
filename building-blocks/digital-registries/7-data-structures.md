@@ -14,7 +14,7 @@ The resource model shows the relationship between data objects that are used by 
 
 **Resource Model**:
 
-![ Illustration 3- Resource model. See editable image here.   ](<../.gitbook/assets/GDB datamodel(1) (1).JPG>)
+![ Illustration 3- Resource model. See editable image here.   ](<../../.gitbook/assets/GDB datamodel(1) (1).JPG>)
 
 ## 7.3 Data Elements  <a href="#docs-internal-guid-f4ace18b-7fff-ada5-ebbb-3aaf5e08cb17" id="docs-internal-guid-f4ace18b-7fff-ada5-ebbb-3aaf5e08cb17"></a>
 

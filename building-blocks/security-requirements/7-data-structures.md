@@ -20,4 +20,4 @@ IDV BB requires data objects, below are the main ones involved listed:
 
 Schema below shows their interactions and bring more details on involved data objects
 
-![](../.gitbook/assets/image4.png)
+![](../../.gitbook/assets/image4.png)

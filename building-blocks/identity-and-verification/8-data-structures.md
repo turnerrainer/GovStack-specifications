@@ -4,7 +4,7 @@
 
 The voucher resource model is shown below.
 
-![](../.gitbook/assets/image10.png)
+![](../../.gitbook/assets/image10.png)
 
 ### 8.1.1 Minimum Required Data
 
@@ -31,7 +31,7 @@ The voucher resource model is shown below.
 
 ## 8.2 Incoming Government Payments Resource
 
-![](<../.gitbook/assets/image13 (1).png>)
+![](<../../.gitbook/assets/image13 (1).png>)
 
 ## 8.3 Data Elements <a href="#docs-internal-guid-8d4f18ff-7fff-2f74-3bc3-2f4c2a3f0a1b" id="docs-internal-guid-8d4f18ff-7fff-2f74-3bc3-2f4c2a3f0a1b"></a>
 

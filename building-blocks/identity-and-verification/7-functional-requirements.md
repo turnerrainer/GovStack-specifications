@@ -6,7 +6,7 @@ This section lists the technical capabilities of the payments building block.&#x
 
 The following components are needed to achieve the technical functionalities of the payments building block.&#x20;
 
-![Payments building block diagrams.drawio - diagrams.net](../.gitbook/assets/image22.png)
+![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/image22.png)
 
 ### 7.1.1 API Management Gateway  <a href="#docs-internal-guid-ccd3b00d-7fff-3413-9366-be54b42a4a46" id="docs-internal-guid-ccd3b00d-7fff-3413-9366-be54b42a4a46"></a>
 

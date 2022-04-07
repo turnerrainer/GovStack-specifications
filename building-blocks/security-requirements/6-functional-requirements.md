@@ -8,7 +8,7 @@ It could be detailed more around how the registration appointment is taken, how 
 
 Purpose of that diagram is to illustrate the key steps of the process and services involved.
 
-![Edit diagram](<../.gitbook/assets/image5 (1) (1).png>)
+![Edit diagram](<../../.gitbook/assets/image5 (1) (1).png>)
 
 ## 6.2  Identity Verification <a href="#docs-internal-guid-2affb3f5-7fff-fa73-9e68-7707b820858d" id="docs-internal-guid-2affb3f5-7fff-fa73-9e68-7707b820858d"></a>
 
@@ -110,7 +110,7 @@ It’s to be noted that the identity verification is generally a stop point as p
 1. Control of authorization of the verified identity to access to some services
 2. Eventually collection of some attributes related to the identity. After individual consent (managed with Consent Building Block) and under authorization of access to the requesting services provider.
 
-![Edit diagram](../.gitbook/assets/image7.png)
+![Edit diagram](../../.gitbook/assets/image7.png)
 
 #### 6.3.2  Use case 3: Cross-Border Recognition of Professional Jobs  <a href="#docs-internal-guid-65b24984-7fff-ebe8-9b8f-f14c39815ae4" id="docs-internal-guid-65b24984-7fff-ebe8-9b8f-f14c39815ae4"></a>
 
@@ -132,4 +132,4 @@ This use case examines the recognition of high-skilled jobs.
 | **Data output**                                                   | <p>Motivate professionals to register and be certified so they can take advantage of cross border work opportunities.</p><p> </p><p>Increased research and analysis capacity (e.g., how many certified professionals are crossing the border and benefitting from the advantages)</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | <p><strong>Post conditions</strong></p><p> <strong></strong> </p> | A streamlined certification and registration process resulting in a higher number of registered professionals that benefit from a larger market access and a decrease in unregistered (quacks) operating across the region                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
-![](<../.gitbook/assets/image6 (1).jpg>)
+![](<../../.gitbook/assets/image6 (1).jpg>)
