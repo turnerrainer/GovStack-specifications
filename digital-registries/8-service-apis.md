@@ -16,7 +16,7 @@ Each registry contains a unique set of data and the BB enables an Analyst to cha
 
 ![xample registry database logical data model. Editable version is here.](<../.gitbook/assets/Logical datamodel MCTS (1).JPG>)
 
-![Example registry database Json schema.](<../.gitbook/assets/image4 (1) (1).png>)
+![Example registry database Json schema.](<../.gitbook/assets/image4 (1) (1) (1).png>)
 
 Digital registries BB is expected to host the following API services for each database hosted on the platform
 

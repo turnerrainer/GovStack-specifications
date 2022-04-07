@@ -10,7 +10,7 @@ The statistics API gives BB operational statistics- number of processed applicat
 
 **Resource Model:**
 
-![Illustration 5- resource model for Registration BB Statistics APi.](<../.gitbook/assets/image4 (1).png>)
+![Illustration 5- resource model for Registration BB Statistics APi.](<../.gitbook/assets/image4 (1) (1).png>)
 
 **Standards:**
 

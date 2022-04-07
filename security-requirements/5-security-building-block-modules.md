@@ -164,6 +164,6 @@ The security building block predominantly deals with the cross-cutting security 
 
 The sequence diagrams below depict examples of how a building block might interact with the API Management and Gateway solution. This is only relevant for the API Management and Gateway services in the context of the security building block. A higher level sequence diagram depicting API interactions for building blocks is depicted and documented in Architecture Blueprint and Functional Requirements (see [Ref 1](https://docs.google.com/document/d/1Z9jS0BnfTM3azBED5349uD5sQ9VYYo8p/edit#heading=h.k32er9gmkfp0)).
 
-![Example Sequence for Issuing a Token for API Access](<../.gitbook/assets/image8 (1).png>)
+![Example Sequence for Issuing a Token for API Access](<../.gitbook/assets/image8 (1) (1).png>)
 
-![Example Sequence for Calling an API Microservice via Gatewa](<../.gitbook/assets/image7 (1) (1).png>)
+![Example Sequence for Calling an API Microservice via Gatewa](<../.gitbook/assets/image7 (1) (1) (1).png>)

@@ -65,7 +65,7 @@ Data structures:
 
 **Sequence Diagram via Self-Registration**:&#x20;
 
-![Illustration 8- Self registration See editable diagram. ](../.gitbook/assets/image5.png)
+![Illustration 8- Self registration See editable diagram. ](<../.gitbook/assets/image5 (1).png>)
 
 **Notes**:
 
@@ -86,7 +86,7 @@ See full description of the User registration in [Security BB documentation](htt
 
 Sequence diagram:&#x20;
 
-![Illustration 10- IM API description. See Websequencediagrams for an editable diagram.](../.gitbook/assets/image10.png)
+![Illustration 10- IM API description. See Websequencediagrams for an editable diagram.](<../.gitbook/assets/image10 (1).png>)
 
 **Data structures:**
 
@@ -143,7 +143,7 @@ As a post condition, the applicant was able to fill a registration form and subm
 
 **Sequence Diagram:**
 
-![Illustration 12 - The process of filing an application file. See editable version here  ](../.gitbook/assets/image15.png)
+![Illustration 12 - The process of filing an application file. See editable version here  ](<../.gitbook/assets/image15 (1).png>)
 
 
 
@@ -172,7 +172,7 @@ Use case: e-service user initiates a registration service to  issue a payment vo
 
 **Sequence diagram**:&#x20;
 
-![Illustration 13 - Voucher issuing diagram. See https://app.diagrams.net/  for an editable diagram. ](../.gitbook/assets/image14.png)
+![Illustration 13 - Voucher issuing diagram. See https://app.diagrams.net/  for an editable diagram. ](<../.gitbook/assets/image14 (2).png>)
 
 **Data structures**:
 

@@ -8,7 +8,7 @@ It could be detailed more around how the registration appointment is taken, how 
 
 Purpose of that diagram is to illustrate the key steps of the process and services involved.
 
-![Edit diagram](<../.gitbook/assets/image5 (1).png>)
+![Edit diagram](<../.gitbook/assets/image5 (1) (1).png>)
 
 ## 6.2  Identity Verification <a href="#docs-internal-guid-2affb3f5-7fff-fa73-9e68-7707b820858d" id="docs-internal-guid-2affb3f5-7fff-fa73-9e68-7707b820858d"></a>
 
