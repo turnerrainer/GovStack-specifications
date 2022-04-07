@@ -23,7 +23,7 @@ The no-code development platform acts as a rules engine, a screens (user interfa
 
 ![Illustration 2 - Example of the user interface builder (UNCTAD’s eRegistrations).](../.gitbook/assets/image3.png)
 
-![Illustration 3 - Example of flow builder (UNCTAD’s eRegistrations).](../.gitbook/assets/image7.png)
+![Illustration 3 - Example of flow builder (UNCTAD’s eRegistrations).](<../.gitbook/assets/image7 (1).png>)
 
 ## 3.2 The Online Registration Services <a href="#docs-internal-guid-d85f59a4-7fff-1564-6ae2-86d67f36a258" id="docs-internal-guid-d85f59a4-7fff-1564-6ae2-86d67f36a258"></a>
 

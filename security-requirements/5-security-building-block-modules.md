@@ -166,4 +166,4 @@ The sequence diagrams below depict examples of how a building block might intera
 
 ![Example Sequence for Issuing a Token for API Access](<../.gitbook/assets/image8 (1).png>)
 
-![Example Sequence for Calling an API Microservice via Gatewa](<../.gitbook/assets/image7 (1).png>)
+![Example Sequence for Calling an API Microservice via Gatewa](<../.gitbook/assets/image7 (1) (1).png>)
