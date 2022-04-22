@@ -6,6 +6,14 @@
 
 ## Building Blocks
 
+* [Architecture and Nonfunctional Requirements](building-blocks/architecture-and-nonfunctional-requirements/README.md)
+  * [Description](building-blocks/architecture-and-nonfunctional-requirements/description.md)
+  * [3 Terminology](building-blocks/architecture-and-nonfunctional-requirements/3-terminology.md)
+  * [4 Building Block Design Principles](building-blocks/architecture-and-nonfunctional-requirements/4-building-block-design-principles.md)
+  * [5 Cross-Cutting Requirements](building-blocks/architecture-and-nonfunctional-requirements/5-cross-cutting-requirements.md)
+  * [6 Standards](building-blocks/architecture-and-nonfunctional-requirements/6-standards.md)
+  * [7 Key Decision Log](building-blocks/architecture-and-nonfunctional-requirements/7-key-decision-log.md)
+  * [8 Future Considerations](building-blocks/architecture-and-nonfunctional-requirements/8-future-considerations.md)
 * [Security Requirements](building-blocks/security-requirements/README.md)
   * [11 Other Resources](building-blocks/security-requirements/11-other-resources.md)
   * [6  Functional Requirements](building-blocks/security-requirements/6-functional-requirements.md)

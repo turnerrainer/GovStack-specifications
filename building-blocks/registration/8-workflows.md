@@ -102,7 +102,7 @@ Sequence diagram:&#x20;
 
 **Sequence diagram:**&#x20;
 
-![Illustration 11- Request payment options. See https://app.diagrams.net/  for an editable diagram.](<../../.gitbook/assets/image1 (1) (1).png>)
+![Illustration 11- Request payment options. See https://app.diagrams.net/  for an editable diagram.](<../../.gitbook/assets/image1 (1) (1) (1).png>)
 
 **Data structures:**
 

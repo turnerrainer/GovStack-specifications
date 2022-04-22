@@ -176,7 +176,7 @@ If the file is properly formatted, the Payment BB will respond with a file that 
 
 The calling building block will dispense the vouchers as needed using an appropriate delivery mechanism. The calling BB will also be responsible for any verification of the beneficiary during the redemption process. The description of the dispensing of the vouchers once the calling block has received it is outside the scope of the Payments BB.
 
-![](../../.gitbook/assets/image3.png)
+![](<../../.gitbook/assets/image3 (1).png>)
 
 ### 9.6.4 VoucherRedemption <a href="#docs-internal-guid-df8c2024-7fff-e374-7456-23db45c11b57" id="docs-internal-guid-df8c2024-7fff-e374-7456-23db45c11b57"></a>
 

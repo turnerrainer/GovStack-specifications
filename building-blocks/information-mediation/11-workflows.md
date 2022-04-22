@@ -26,5 +26,5 @@ Sequence Diagram:&#x20;
 
 The sequence diagram shows the flow of data between building blocks for this workflow.
 
-![](https://lh3.googleusercontent.com/UBsmVMlOw2BMsmlIlCudK53mvqZuqL6VSWCdmxdcsZ0fBCCqRgDaM4HGEZLe1nBrohZ5QBy\_gEu9SR6NayIaMi3UCckBkjBCML8v9quLzgJB8Z4pAzVytH1drSxM8cQ1Y0zqs6I\_)
+<img src="https://lh3.googleusercontent.com/UBsmVMlOw2BMsmlIlCudK53mvqZuqL6VSWCdmxdcsZ0fBCCqRgDaM4HGEZLe1nBrohZ5QBy_gEu9SR6NayIaMi3UCckBkjBCML8v9quLzgJB8Z4pAzVytH1drSxM8cQ1Y0zqs6I_" alt="" data-size="original">
 
