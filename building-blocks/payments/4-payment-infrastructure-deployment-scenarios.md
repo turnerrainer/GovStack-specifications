@@ -12,7 +12,7 @@ Regional switches may take on any and all use cases, or may be restricted to spe
 
 The Payments building block (BB) sits between the government account systems (i.e. at the Ministry of FInance or Central Bank) and the public or private switching available in the market. As such the PaymentsBB is assumed in each, but not shown. The primary focus in describing these scenarios is on the relationship between payment schemes, banking institutions, and government institutions. This section describes what is available in-country.   &#x20;
 
-\
+
 
 
 | **Infrastructure Scenarios**                                                                                                                                                                                       | **Suggested Approach**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
