@@ -1,4 +1,4 @@
-# 3 Security Management
+# 4 Security Management
 
 The key security functionalities outlined here describe the required facilities that this security building block MUST provide as well as security compliance measures that must be implemented by all building blocks.  Note that specific API definitions are not likely to be created by the security building block as any interfaces required are to be based on open standards and implemented as part and parcel of acquired solutions. A good example of this is the adoption of standards like OAuth2 and OpenIDConnect for authentication and authorization. The functional requirements for the implementation of an appropriate API Management and Gateway services solution can be found in a separate section of this document below.
 

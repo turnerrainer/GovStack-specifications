@@ -1,4 +1,4 @@
-# 6 Standards
+# 7 Standards
 
 The following standards are applicable to all aspects of the security building block and cross-cutting across other building blocks. Note that these are not technical standards but the process framework standards that shall be used to guide security decisions on the project::
 
