@@ -35,6 +35,9 @@
   * [9 Data Structures](building-blocks/information-mediation/9-data-structures.md)
   * [10 Service APIs](building-blocks/information-mediation/10-service-apis.md)
   * [11 Workflows](building-blocks/information-mediation/11-workflows.md)
+  * [12 Key Decision Log](building-blocks/identity-and-verification/12-key-decision-log.md)
+  * [13 Future Considerations](building-blocks/information-mediation/13-future-considerations.md)
+  * [14 Annexes and Appendices](building-blocks/information-mediation/14-annexes-and-appendices.md)
 * [Registration](building-blocks/registration/README.md)
   * [1 Description](building-blocks/registration/1-description.md)
   * [2  Terminology](building-blocks/registration/2-terminology.md)
@@ -74,15 +77,6 @@
   * [10  Other Resources](building-blocks/identity-and-verification/10-other-resources.md)
   * [11  Key Decision Log](building-blocks/identity-and-verification/11-key-decision-log.md)
   * [12  Future Considerations](building-blocks/identity-and-verification/12-future-considerations.md)
-  * 
-  * 
-  * 
-  * [13 Future Considerations](building-blocks/identity-and-verification/13-future-considerations.md)
-  * [14 Annexes and Appendices](building-blocks/identity-and-verification/14-annexes-and-appendices.md)
-* 
-* [12 Key Decision Log](building-blocks/identity-and-verification/12-key-decision-log.md)
-
-
 * [Payments](building-blocks/payments/README.md)
   * [2 Description](building-blocks/payments/2-description.md)
   * [3 Terminology](building-blocks/payments/3-terminology.md)
