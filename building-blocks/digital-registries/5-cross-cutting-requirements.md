@@ -1,6 +1,6 @@
-# 5  Cross-Cutting Requirements
+# 5 Cross-Cutting Requirements
 
-The Cross-cutting requirements described in this section are an extension of the cross-cutting requirements defined in the Architecture specification document ([here](https://docs.egovstack.net/v1.1.0/Architecture\_and\_NonFunctional\_Requirements\_v1.1.0.pdf)) and Security requirements ([here](https://docs.egovstack.net/v1.1.0/Security\_Requirements\_v1.1.0.pdf)). This section highlights cross-functional requirements for Digital Registries BB and in addition describes any deviation to the Architecture BB cross-cutting requirements.
+The Cross-cutting requirements described in this section are an extension of the cross-cutting requirements defined in the [Architecture specification](../architecture-and-nonfunctional-requirements/) and [Security requirements](../security-requirements/). This section highlights cross-functional requirements for Digital Registries BB and in addition describes any deviation to the Architecture BB cross-cutting requirements.
 
 The following requirements should be optional:
 

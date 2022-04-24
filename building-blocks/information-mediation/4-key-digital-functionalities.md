@@ -14,7 +14,7 @@ GovStack facilitates creation of an ecosystem of applications meant to fulfill d
 
 Interaction between applications which are participants of the GovStack ecosystem is implemented by Mediator BB Security Servers. Interaction with software solutions outside of GovStack goes in inward direction through firewall/load balancer/reverse proxy and in outward direction through API Gateway.
 
-![Draw.io source in github: https://github.com/aleksander-reitsakas/InformationMediatorAPI/blob/main/IM/diagrams/global-picture.drawio.png](../../.gitbook/assets/j1.png)
+![Draw.io source in github: https://github.com/aleksander-reitsakas/InformationMediatorAPI/blob/main/IM/diagrams/global-picture.drawio.png](../../.gitbook/assets/global-picture.drawio.png)
 
 ## **4.3 Specific Functionalities**
 

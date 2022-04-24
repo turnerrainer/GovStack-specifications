@@ -198,7 +198,7 @@ In the case of a physical voucher the voucher number or the secret number is hid
 
 The voucher cancellation flow is shown in the diagram below.
 
-![https://app.diagrams.net/#G1F11u50rrWIuGcnO0JjdhQHS-5if00I2B](../../.gitbook/assets/image23.png)
+![https://app.diagrams.net/#G1F11u50rrWIuGcnO0JjdhQHS-5if00I2B](<../../.gitbook/assets/image23 (1).png>)
 
 Flow Description:
 

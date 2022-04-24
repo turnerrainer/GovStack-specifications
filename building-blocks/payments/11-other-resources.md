@@ -13,12 +13,12 @@ The following standards are applicable to data structures in the Payments Buildi
 ## 11.2 GovStack Resources
 
 * [https://discourse.govstack.global/t/about-the-payments-category/62](https://discourse.govstack.global/t/about-the-payments-category/62)
-* [Information Mediator Building Block Definition](https://docs.egovstack.net/v1.1.0/Information\_Mediator\_Building\_Block\_Specification\_v1.1.0.pdf)
-* [Registration Building Block Definition](https://docs.egovstack.net/v1.1.0/Registration\_Building\_Block\_Specification\_v1.1.0.pdf)
-* [Architecture Blueprint and non-functional requirements](https://docs.egovstack.net/v1.1.0/Architecture\_and\_NonFunctional\_Requirements\_v1.1.0.pdf)
-* [Security Building Block Definition](https://docs.egovstack.net/v1.1.0/Security\_Requirements\_v1.1.0.pdf)
+* [Information Mediator Building Block Definition](../information-mediation/)
+* [Registration Building Block Definition](../registration/)
+* [Architecture Blueprint and non-functional requirements](../architecture-and-nonfunctional-requirements/)
+* [Security Building Block Definition](../security-requirements/)
 * [Elevator pitches and visual aids](https://docs.google.com/document/d/19j17hkPUSDMGFc1zdRrFTjXlcLM5hkBhyQqyD2AbT1E/edit#heading=h.pnl93n9m7h4l) - Architecture working group
-* [Digital Registries Building Block Definition](https://docs.egovstack.net/v1.1.0/Digital\_Registries\_Building\_Block\_Specification\_v1.1.0.pdf)
+* [Digital Registries Building Block Definition](../digital-registries/)
 * [BB - Existing Database Connector](https://docs.google.com/document/d/1RCfreGttF\_aHBQcpATJTYLwUFHn91iwxN3jJj7gQtuU/edit)
 
 ### 11.3 Unconditional Social Cash Transfer Resources

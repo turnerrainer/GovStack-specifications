@@ -12,9 +12,9 @@ The functionalities described in this chapter apply to any government registrati
 
 The no-code development platform is composed of:
 
-* Rules engine ([5.1.1](https://docs.google.com/document/d/18aJLgW4dlB89UMFVXBnrzpHwGLnmQpaoxUGVMxsoGUo/edit#heading=h.frzfoooltkee))
-* User interface and flow builder ([5.1.2](https://docs.google.com/document/d/18aJLgW4dlB89UMFVXBnrzpHwGLnmQpaoxUGVMxsoGUo/edit#heading=h.7cyqm8pohycm))
-* Controls configurator ([5.1.3](https://docs.google.com/document/d/18aJLgW4dlB89UMFVXBnrzpHwGLnmQpaoxUGVMxsoGUo/edit#heading=h.9y8dmw7d6xfz))
+* Rules engine
+* User interface and flow builder
+* Controls configurator
 
 It is used by authorized personnel, called “analysts”, entrusted by the entities in charge of the registrations to develop the corresponding online services.&#x20;
 

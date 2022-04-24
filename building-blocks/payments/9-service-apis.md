@@ -164,7 +164,7 @@ The VoucherPreActivation API is used by non-Payment Building Blocks in the GovSt
 
 The VoucherActivation API is used by non-Payment Building Blocks in the GovStack Framework to activate a pre-activated voucher. This second function call is intended to ensure that the voucher is only activated when it is disbursed. This API requests for the activation of a voucher when the caller sends the voucher number to be activated. If the API call is successful, the activation is confirmed, and the voucher can now be used by the beneficiary.
 
-![](<../../.gitbook/assets/image4 (1).png>)
+![](<../../.gitbook/assets/image4 (3).png>)
 
 ### 9.6.3 BatchVoucherActivation API <a href="#docs-internal-guid-97c3ee48-7fff-63bc-1eda-a2af444b93bb" id="docs-internal-guid-97c3ee48-7fff-63bc-1eda-a2af444b93bb"></a>
 

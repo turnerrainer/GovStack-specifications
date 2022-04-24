@@ -1,6 +1,6 @@
 # 4 Cross-Cutting Requirements
 
-The cross-cutting requirements described in this section are an extension of the cross-cutting requirements defined in the Architecture specification document ([here](https://docs.egovstack.net/v1.1.0/Architecture\_and\_Nonfunctional\_Requirements\_v1.1.0.pdf)) and Security requirements ([here](https://docs.egovstack.net/v1.1.0/Security\_Requirements\_v1.1.0.pdf)). This section will highlight important requirements or describe any additional cross-cutting requirements that apply to this building block.
+The cross-cutting requirements described in this section are an extension of the cross-cutting requirements defined in the [Architecture specification](../architecture-and-nonfunctional-requirements/) and [Security requirements](../security-requirements/). This section will highlight important requirements or describe any additional cross-cutting requirements that apply to this building block.
 
 **Secure ingress and Egress access mechanisms** (Information Mediator and api gateway)
 

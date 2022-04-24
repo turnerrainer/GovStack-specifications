@@ -1,4 +1,4 @@
-# 8  Workflows
+# 8 Workflows
 
 This workflow section provides a detailed view of how this building block will interact with other building blocks to support common use cases.  It lists workflows that this building block must support. Other workflows may be implemented in addition to those listed.
 
@@ -23,7 +23,7 @@ As a post-condition, the e-Service has beglossaryen published on the internet fo
 
 User journey is the step by step journey that a user takes to reach their goal. This journey consists of a number of website pages/screens and decision points that carry the user from one step to another. The user journey is used to map out the current journey a typical user might take to reach their goal
 
-![Illustration 6- user journey of creating a registration service. See editable file here.](<../../.gitbook/assets/image11 (1).png>)
+![Illustration 6- user journey of creating a registration service. See editable file here.](../../.gitbook/assets/image11.png)
 
 ### 8.1.3  Interaction with Other Building Blocks <a href="#docs-internal-guid-67b89c8a-7fff-6917-6030-b4cb08422e15" id="docs-internal-guid-67b89c8a-7fff-6917-6030-b4cb08422e15"></a>
 
@@ -50,7 +50,7 @@ For each interaction, the following information is provided:
 
 **Notes:**\
 ****Pre-requirements: user has passed the provisioning of user credentials and this can authenticate/log in to Govstack (sandbox) system. User roles are also added by Security (IAM) system when token is sent to the Building Block. Registration BB in this case is operating as Building Block. \
-See full description of the user authentication in [Security BB documentation](https://docs.egovstack.net/v1.1.0/Security\_Requirements\_v1.1.0.pdf).  &#x20;
+See full description of the user authentication in [Security BB](../security-requirements/) documentation.  &#x20;
 
 Data structures:
 
@@ -71,14 +71,14 @@ Data structures:
 
 Pre-requirements: user does not have user credentials to authenticate/log in to Govstack (sandbox) system.  \
 Registration BB in this case is operating as Building Block UI.\
-See full description of the User registration in [Security BB documentation](https://docs.egovstack.net/v1.1.0/Security\_Requirements\_v1.1.0.pdf).&#x20;
+See full description of the User registration in [Security BB](../security-requirements/) documentation.&#x20;
 
 **Sequence Diagram for User Self Registration via Foundational ID:**
 
 ![Illustration 9- Self registration via foundational ID. See an editable diagram.](../../.gitbook/assets/image12.png)
 
 **Notes**:\
-****Pre-requirements: user does not have user credentials to authenticate/log in to Govstack (sandbox) system.  Registration BB in this case is operating as Building Block UI.   See full description of the User registration in [Security BB documentation](https://docs.google.com/document/d/1ZuR52EJm-iWWXCNpkAEZXFPRF1Cg1ciJ/edit#heading=h.1gyijs8ue9t).
+****Pre-requirements: user does not have user credentials to authenticate/log in to Govstack (sandbox) system.  Registration BB in this case is operating as Building Block UI.   See full description of the User registration in [Security BB ](../security-requirements/)documentation.
 
 **Interaction 3: Information Mediator (IM) BB**
 
@@ -176,7 +176,7 @@ Use case: e-service user initiates a registration service to  issue a payment vo
 
 **Data structures**:
 
-| **Name**           | **Required Data** | **Notes**                                                                                                                                 |
-| ------------------ | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Voucher activation | Voucher ID        | <p>See <a href="https://docs.egovstack.net/v1.1.0/Payments_Building_Block_Specification_v1.1.0.pdf">more </a>in Payment BB</p><p><br></p> |
-| Response           | Status            | The response is stored in Registration BB.                                                                                                |
+| **Name**           | **Required Data** | **Notes**                                                           |
+| ------------------ | ----------------- | ------------------------------------------------------------------- |
+| Voucher activation | Voucher ID        | <p>See more in <a href="../payments/">Payment BB</a></p><p><br></p> |
+| Response           | Status            | The response is stored in Registration BB.                          |
