@@ -24,16 +24,6 @@
   * [8 Cross Reference Links](building-blocks/security-requirements/8-cross-reference-links.md)
   * [9 Key Decision Log](building-blocks/security-requirements/9-key-decision-log.md)
   * [10 Future Considerations](building-blocks/security-requirements/10-future-considerations.md)
-  * 
-  * [6  Functional Requirements](building-blocks/security-requirements/6-functional-requirements.md)
-  * [7  Data Structures](building-blocks/identity-and-verification/7-data-structures.md)
-  * [8  APIs and Services](building-blocks/identity-and-verification/8-apis-and-services.md)
-  * [9  Workflows](building-blocks/identity-and-verification/9-workflows.md)
-  * [10  Other Resources](building-blocks/identity-and-verification/10-other-resources.md)
-  * [11  Key Decision Log](building-blocks/identity-and-verification/11-key-decision-log.md)
-  * [12  Future Considerations](building-blocks/identity-and-verification/12-future-considerations.md)
-
-  
 * [Information Mediation](building-blocks/information-mediation/README.md)
   * [2 Description](building-blocks/information-mediation/2-description.md)
   * [3 Terminology](building-blocks/information-mediation/3-terminology.md)
@@ -73,13 +63,26 @@
   * [Appendix 1- Database Read-Schema Response Example](building-blocks/digital-registries/appendix-1-database-read-schema-response-example.md)
   * [Appendix 2- Example Schema with Foreign Keys](building-blocks/digital-registries/appendix-2-example-schema-with-foreign-keys.md)
 * [Identity and Verification](building-blocks/identity-and-verification/README.md)
-  * [12 Key Decision Log](building-blocks/identity-and-verification/12-key-decision-log.md)
-  * [2 Description](building-blocks/identity-and-verification/2-description/README.md)
-  * [13 Future Considerations](building-blocks/identity-and-verification/2-description/13-future-considerations.md)
-  * [3  Terminology](building-blocks/identity-and-verification/3-terminology-1/README.md)
-  * [14 Annexes and Appendices](building-blocks/identity-and-verification/3-terminology-1/14-annexes-and-appendices.md)
+  * [2 Description](building-blocks/identity-and-verification/2-description.md)
+  * [3  Terminology](building-blocks/identity-and-verification/3-terminology.md)
   * [4  Key Digital Functionalities](building-blocks/identity-and-verification/4-key-digital-functionalities.md)
   * [5  Cross-Cutting Requirements](building-blocks/identity-and-verification/5-cross-cutting-requirements.md)
+  * [6  Functional Requirements](building-blocks/identity-and-verification/6-functional-requirements.md)
+  * [7  Data Structures](building-blocks/identity-and-verification/7-data-structures.md)
+  * [8  APIs and Services](building-blocks/identity-and-verification/8-apis-and-services.md)
+  * [9  Workflows](building-blocks/identity-and-verification/9-workflows.md)
+  * [10  Other Resources](building-blocks/identity-and-verification/10-other-resources.md)
+  * [11  Key Decision Log](building-blocks/identity-and-verification/11-key-decision-log.md)
+  * [12  Future Considerations](building-blocks/identity-and-verification/12-future-considerations.md)
+  * 
+  * 
+  * 
+  * [13 Future Considerations](building-blocks/identity-and-verification/13-future-considerations.md)
+  * [14 Annexes and Appendices](building-blocks/identity-and-verification/14-annexes-and-appendices.md)
+* 
+* [12 Key Decision Log](building-blocks/identity-and-verification/12-key-decision-log.md)
+
+
 * [Payments](building-blocks/payments/README.md)
   * [2 Description](building-blocks/payments/2-description.md)
   * [3 Terminology](building-blocks/payments/3-terminology.md)
