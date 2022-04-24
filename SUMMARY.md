@@ -7,7 +7,7 @@
 ## Building Blocks
 
 * [Architecture and Nonfunctional Requirements](building-blocks/architecture-and-nonfunctional-requirements/README.md)
-  * [Description](building-blocks/architecture-and-nonfunctional-requirements/description.md)
+  * [2 Description](building-blocks/architecture-and-nonfunctional-requirements/description.md)
   * [3 Terminology](building-blocks/architecture-and-nonfunctional-requirements/3-terminology.md)
   * [4 Building Block Design Principles](building-blocks/architecture-and-nonfunctional-requirements/4-building-block-design-principles.md)
   * [5 Cross-Cutting Requirements](building-blocks/architecture-and-nonfunctional-requirements/5-cross-cutting-requirements.md)
