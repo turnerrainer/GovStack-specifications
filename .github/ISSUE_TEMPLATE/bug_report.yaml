@@ -4,7 +4,7 @@ title: "[Bug]: "
 labels: ["bug"]
 assignees: "rachellawson"
 body:
-  - type: markdown
+    - type: markdown
     attributes:
       value: |
         Thank you for taking the time to submit a bug report. Below, you will find a few questions to help you give us the information needed to handle the report.
