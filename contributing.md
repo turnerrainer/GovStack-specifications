@@ -12,8 +12,10 @@ Some members of the community will have experience using git to directly interac
 
 Note that the content in the GovStack specifications follws the markdown standards applied by the [GitBook](https://www.gitbook.com) tool.
 
-1. Make an issue first in the issue queue.
-2. Create a pull request in the GovStack Specifications repository, including the issue number and short description in the pull request title, for example:\
+1. Check our [issue queue](https://github.com/GovStackWorkingGroup/specifications/issues) first to see if anyone else has already reported this issue.
+2. Create a new "bug" and tell us about the problem that you see.
+3. The maintainer of this section will be alerted and work with you to decide what changes should be made
+4. If invited to do so, create a pull request in the GovStack Specifications repository, including the issue number and short description in the pull request title, for example:\
    `{issue number] - {short description of the change}`- an example would be `gov-001 - Adding contribution information`\
    \`\`Note that pull requests that do not mention an associated issue number will not be alerted to our maintainers
 3. Once the issue describes the reason for a change and links to the change you propose, tag the issue with the correct building block tag so that a maintainer for that building block is alerted
