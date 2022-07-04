@@ -1,8 +1,8 @@
 # 10 Workflows
 
-The  workflow provides a detailed view of how the payments BB will interact with other building blocks to support common use cases.&#x20;
+The workflow provides a detailed view of how the payments BB will interact with other building blocks to support common use cases.
 
-## 10.2 G2P Bulk Payment Workflow  <a href="#docs-internal-guid-dfe6b849-7fff-2b78-34c6-27cab0f78e42" id="docs-internal-guid-dfe6b849-7fff-2b78-34c6-27cab0f78e42"></a>
+## 10.2 G2P Bulk Payment Workflow <a href="#docs-internal-guid-dfe6b849-7fff-2b78-34c6-27cab0f78e42" id="docs-internal-guid-dfe6b849-7fff-2b78-34c6-27cab0f78e42"></a>
 
 ### 10.2.1 Bulk Disbursement for Unconditional Cash Transfer
 
@@ -22,7 +22,7 @@ Bulk payments file
 
 #### **10.2.1.2 Description**
 
-There are three options for the disbursement,&#x20;
+There are three options for the disbursement,
 
 * Manual process for Govt/Dept to send the retail payment details for each FSP (ie either by email or other means). This would be the case where there is a lack of interoperability among FSPs.
 * Upload the batch disbursement file in the payment web portal for each FSP to retrieve in the case of a centralised Account Lookup Directory Service.
@@ -33,7 +33,7 @@ There are three options for the disbursement,&#x20;
 ![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/image20.png)
 
 **Option 2**: Retail payments are accessed via a payment web portal by the Payment Service Provider the advice/electronic fund transfer request, or paper-based check is issued from the Financial Management Information System to the TSA-holding Bank.\
-Based on this advice, the Bank disburses funds from the Trusted Single Account (TSA) into the  digital payments system of  the FSP which transfers the corresponding funds to the recipient’s account. For the retail payment scrolls, where each agency is responsible for running the payment system - payroll, social welfare payments, etc - the payment details are not stored in those systems. Instead, the beneficiary’s payment token is retrieved from the Centralised Account Lookup Directory Service and kept in the government payment portal.. The payment lists are only shared with the program account holder institution/FSP, PSP, via the government payment portal. The FSP/PSP can log in on the government web portal to access the directory for payments that the FSP needs to effect for each G2P Program.&#x20;
+Based on this advice, the Bank disburses funds from the Trusted Single Account (TSA) into the digital payments system of the FSP which transfers the corresponding funds to the recipient’s account. For the retail payment scrolls, where each agency is responsible for running the payment system - payroll, social welfare payments, etc - the payment details are not stored in those systems. Instead, the beneficiary’s payment token is retrieved from the Centralised Account Lookup Directory Service and kept in the government payment portal.. The payment lists are only shared with the program account holder institution/FSP, PSP, via the government payment portal. The FSP/PSP can log in on the government web portal to access the directory for payments that the FSP needs to effect for each G2P Program.
 
 ![Payments building block diagrams.drawio - diagrams.net](<../../.gitbook/assets/image8 (1).png>)
 
@@ -55,24 +55,24 @@ At a high level, the payment components used for bulk payments are shown in the 
 
 The sequence diagram shows the flow of data between building blocks for bulk payments workflow.
 
-* The Beneficiary system (registry BB) transmits the compiled list with boundary conditions for payment timings for each G2P programme (i.e. staggered, each week, standing, etc.).&#x20;
+* The Beneficiary system (registry BB) transmits the compiled list with boundary conditions for payment timings for each G2P programme (i.e. staggered, each week, standing, etc.).
 * Bulk payment services validate data structures and content in compiled lists.
-* Bulk payment service uses the Account Lookup (Directory) Service (ALS), a type of Discovery Service that is more protective of account information and privacy. The ALS is used to establish the destination FSP, and the payment alias is then provided by the destination FSP.  These functions are used when the account address is not specified in advance. The discovery service can also be used to verify whether the account address information provided by the beneficiary system is valid (this would be in the event the payment information is provided by the beneficiary system to the payments BB directly).
+* Bulk payment service uses the Account Lookup (Directory) Service (ALS), a type of Discovery Service that is more protective of account information and privacy. The ALS is used to establish the destination FSP, and the payment alias is then provided by the destination FSP. These functions are used when the account address is not specified in advance. The discovery service can also be used to verify whether the account address information provided by the beneficiary system is valid (this would be in the event the payment information is provided by the beneficiary system to the payments BB directly).
 * FSP validates account exists and provides status of account.
 * Bulk payment service prepares the batch breakdown on the basis of rulesets governing which FSPs shall receive which payments, combinating payments with other payments to the same beneficiary, etc.
-* In the case of salary payments, there is a single entry in the payment instruction file  sent to the bulk payments service.
+* In the case of salary payments, there is a single entry in the payment instruction file sent to the bulk payments service.
 * FSP returns a quote on the fees to be charged.
 * Bulk payment service sends the batch to each FSP with payment instructions.
 * FSP notifies the end beneficiary who then requests the payment via a channel (Merchant POS, Agent, mobile banking, wallet account feature, bank transfer, voucher).
 * Beneficiary is paid and the success is communicated back to the Beneficiary system (as well as error codes).
 
-Bulk payment service system does reconciliation on accounts paid/not paid and communicates that back to the beneficiary system as well.&#x20;
+Bulk payment service system does reconciliation on accounts paid/not paid and communicates that back to the beneficiary system as well.
 
 ![https://www.websequencediagrams.com/#open=768631](../../.gitbook/assets/image29.png)
 
 #### 10.2.2 Disbursement to Beneficiary Using Mobile Money <a href="#docs-internal-guid-30610214-7fff-b023-24dd-ddf9a6ed5ea9" id="docs-internal-guid-30610214-7fff-b023-24dd-ddf9a6ed5ea9"></a>
 
-In order to facilitate the transfer of funds from the disbursement organisation (the payer) to the mobile money provider, the mobile money provider would need to be connected to the payment gateway / switch. Should this connection not be in place, the disbursement could be facilitated by a third-party aggregator or  there would need to be a bilateral connection between the payer’s FSP and the Mobile Money Provider.
+In order to facilitate the transfer of funds from the disbursement organisation (the payer) to the mobile money provider, the mobile money provider would need to be connected to the payment gateway / switch. Should this connection not be in place, the disbursement could be facilitated by a third-party aggregator or there would need to be a bilateral connection between the payer’s FSP and the Mobile Money Provider.
 
 #### **10.2.2.1 Interaction with Other Building Blocks**
 
@@ -82,7 +82,7 @@ The disbursement organisation (payer) gives instruction to its FSP to process a 
 
 The payer’s FSP forwards the bulk payment instructions to the Bulk payment service which validates the list and queries the ID directory service to determine the recipients mobile money providers. The ID directory returns the list of the recipients providers to the BB which would then create separate batches for each mobile money provider.
 
-The bulk payments service sends the batch and payment instructions to the payer’s FSP which processes the transfer through the gateway which forwards the payment to the correct Mobile Money Provider.&#x20;
+The bulk payments service sends the batch and payment instructions to the payer’s FSP which processes the transfer through the gateway which forwards the payment to the correct Mobile Money Provider.
 
 The Mobile Money provider would then credit the beneficiaries accounts who would receive a notification, confirming the amount has been credited to their accounts. Upon payment success, the Mobile Money provider would notify the payer’s FSP of the payment completion
 
@@ -90,10 +90,10 @@ The Mobile Money provider would then credit the beneficiaries accounts who would
 
 ### 10.3.1 Description
 
-The Voucher Management System supports at least three workflows for:&#x20;
+The Voucher Management System supports at least three workflows for:
 
-1. administration (voucher provisioning and merchant registration),&#x20;
-2. voucher issuing (pre-activation and activation) and&#x20;
+1. administration (voucher provisioning and merchant registration),
+2. voucher issuing (pre-activation and activation) and
 3. redemption use cases as shown in the diagram below. These use cases and the relationship between each one of them is shown and further described below.below.
 
 The use cases are described in the section below:
@@ -102,22 +102,22 @@ The use cases are described in the section below:
 
 #### **10.3.1.1 Admin Process**
 
-These processes  are usually done prior to the issuance of the voucher to ensure a smooth flow at the point of issuance.
+These processes are usually done prior to the issuance of the voucher to ensure a smooth flow at the point of issuance.
 
-The Admin processes  for the Voucher Management Server cover the lifecycle of the vouchers and are typically performed by a privileged user  (this may be done through User Interface or an API). These processes include but are not limited to creating voucher groups, provisioning vouchers, suspending vouchers, unsuspending vouchers, validating vouchers, key management and purging of used vouchers.
+The Admin processes for the Voucher Management Server cover the lifecycle of the vouchers and are typically performed by a privileged user (this may be done through User Interface or an API). These processes include but are not limited to creating voucher groups, provisioning vouchers, suspending vouchers, unsuspending vouchers, validating vouchers, key management and purging of used vouchers.
 
 * Voucher Provisioning\
-  This function will be done by an administrator (privileged user). It will typically be triggered by the deposit of funds in a funding account, thus the source account.  Voucher provisioning creates a conditional right to funds, and an inventory of issued-vouchers. Other processes related to this are voucher inventory management, voucher suspension and voucher purging.
+  This function will be done by an administrator (privileged user). It will typically be triggered by the deposit of funds in a funding account, thus the source account. Voucher provisioning creates a conditional right to funds, and an inventory of issued-vouchers. Other processes related to this are voucher inventory management, voucher suspension and voucher purging.
 * Merchant Registration\
-  In order for efficient redemption of vouchers merchants MUST  be registered in advance to create a network of trusted providers. This registration is assumed to be managed by the Registration BB,  The account verification of the merchant can be done at registration or during redemption subject to a configuration\
+  In order for efficient redemption of vouchers merchants MUST be registered in advance to create a network of trusted providers. This registration is assumed to be managed by the Registration BB, The account verification of the merchant can be done at registration or during redemption subject to a configuration\
   \
   During the registration process, merchants MAY also be assigned to different voucher groups depending on the required function that has been implemented. For example, there may be a voucher group for schools. This implies that vouchers of this type can only be redeemed at schools. This also requires that the use flow system at which the voucher is issued is aware of these voucher groups and is able to send the appropriate request to the Voucher Management System..
 * Agent Registration\
   In markets where cash outs are being used, it is expected that the Registration BB will register agents in a similar way.
 * Voucher Groups\
   Depending on the requirement it should also be possible to set up multiple voucher groups. Vouchers in the same voucher group will have similar characteristics and are labeled with a specific voucher group name. During voucher provisioning, a voucher can be created and attached to a single voucher group.. When a voucher is requested (using the pre-activation API) it is expected that the voucher group will be one of the parameters set.
-* Voucher Issuing \
-  Voucher issuing is  triggered by the registrations building block which will determine whether the conditions of issuance have been met. The calling block will determine the denomination and voucher group of the voucher to be issued.  The  voucher number and the voucher serial number that is issued can be presented to the beneficiary in multiple ways including but not restricted to encoding in the form of QR codes, bar code, printed voucher or even SMS.  This is outside the scope of the Payment BB. It is expected that Building Blocks through which the voucher is redeemed will also be able to decode the voucher&#x20;
+* Voucher Issuing\
+  Voucher issuing is triggered by the registrations building block which will determine whether the conditions of issuance have been met. The calling block will determine the denomination and voucher group of the voucher to be issued. The voucher number and the voucher serial number that is issued can be presented to the beneficiary in multiple ways including but not restricted to encoding in the form of QR codes, bar code, printed voucher or even SMS. This is outside the scope of the Payment BB. It is expected that Building Blocks through which the voucher is redeemed will also be able to decode the voucher
 
 #### **10.3.1.2 Interaction with Other Building Blocks**
 
@@ -135,26 +135,26 @@ The voucher activation flow is shown in the diagram below.
 
 Flow Description:
 
-* An external Building Block may invoke the Payment BB API gateway to pre-activate API on the Voucher Management Server with the amount of the voucher, the voucher currency and the voucher group. The calling block may optionally send a comment. The comment will be stored by the voucher server.  The voucher group will indicate that it is looking for a voucher from a specific voucher group. This API call will be made through the payment orchestrator.
+* An external Building Block may invoke the Payment BB API gateway to pre-activate API on the Voucher Management Server with the amount of the voucher, the voucher currency and the voucher group. The calling block may optionally send a comment. The comment will be stored by the voucher server. The voucher group will indicate that it is looking for a voucher from a specific voucher group. This API call will be made through the payment orchestrator.
 * The voucher group is typically used for the conditional social transfer (e.g. for school fee payment). If any voucher can be used for any purpose, then all vouchers should be created with a generic voucher group (e.g. “GENERAL-PURPOSE”).
-* The API returns  to get a voucher number, the voucher serial number and its expiry date. At this point the voucher will be flagged Pre-Activated.
+* The API returns to get a voucher number, the voucher serial number and its expiry date. At this point the voucher will be flagged Pre-Activated.
 * The calling Building Block may render the voucher as a QR code, as a barcode or even an SMS text. It is recommended that the voucher should include supplementary data of the recipient. It is also recommended that this data should also be printed in human readable form so that the recipient can verify the data on the voucher. This data can also be verified at the point of redemption.
-* Once the calling API successfully prints / issues the QR code, the voucher can then be  activated using the activation API. It is assumed that there will not be a substantial delay between pre-activation and activation to necessitate the need for multiple expiry periods.
+* Once the calling API successfully prints / issues the QR code, the voucher can then be activated using the activation API. It is assumed that there will not be a substantial delay between pre-activation and activation to necessitate the need for multiple expiry periods.
 
 Alternative: the voucher could be activated immediately on being requested. This could be controlled\
 at the Payment Orchestrator..
 
 * Preconditions
-  * The calling registration block will determine that all the necessary preconditions are met.&#x20;
+  * The calling registration block will determine that all the necessary preconditions are met.
   * The most critical precondition is the prefunding which will be done manually at voucher provisioning stage. (Other options that could be prefunding triggered by activation or at redemption which are not considered because they are considerably more complex and create additional failure points in the activation of the vouchers.)
 * Assumptions / Queries
-  * It is assumed that only one currency will be used.&#x20;
+  * It is assumed that only one currency will be used.
   * A zero-trust architecture.
   * The transaction is not reversible.
 * Post-Condition\
   The calling BB may invoke another payment BB API e.g. initiating an incentive payment for the agent.
 
-**Voucher Redemption**&#x20;
+**Voucher Redemption**
 
 The voucher redemption is shown in the diagram below.
 
@@ -163,15 +163,15 @@ The voucher redemption is shown in the diagram below.
 Flow Description:
 
 * At redemption the beneficiary shows the voucher to the merchant or agent.
-* The merchant / agent will scan and interpret the medium in which the voucher is presented (this could be a QR code or a barcode or an SMS or even a printed number).&#x20;
+* The merchant / agent will scan and interpret the medium in which the voucher is presented (this could be a QR code or a barcode or an SMS or even a printed number).
 * Voucher redemption Validation: The details presented MAY allow the merchant / agent to authenticate/validate the owner of the voucher.
-* The agent will then initiate the redemption process which will call the Payment BB  API Management Gateway.
+* The agent will then initiate the redemption process which will call the Payment BB API Management Gateway.
 * The API Management Gateway will validate the voucher and initiate the payment through the payment gateway.
-* If specific voucher groups have been set up, voucher usage may be restricted to specific merchants.  An override parameter should also be provided that will allow a Voucher of any voucher group to be redeemed at any merchant.
+* If specific voucher groups have been set up, voucher usage may be restricted to specific merchants. An override parameter should also be provided that will allow a Voucher of any voucher group to be redeemed at any merchant.
 * Once the payment to the merchant / agent is successful the Payment gateway will inform the API Management Gateway.
 * The API Management Gateway will then instruct the VMS API to flag the voucher as consumed.
 
-Alternatives:&#x20;
+Alternatives:
 
 * Payments could be made through a switch in which case there would be no need for prefunding accounts in each financial institution.
 
@@ -198,7 +198,7 @@ In the case of a physical voucher the voucher number or the secret number is hid
 
 The voucher cancellation flow is shown in the diagram below.
 
-![https://app.diagrams.net/#G1F11u50rrWIuGcnO0JjdhQHS-5if00I2B](<../../.gitbook/assets/image23 (1).png>)
+![https://app.diagrams.net/#G1F11u50rrWIuGcnO0JjdhQHS-5if00I2B](../../.gitbook/assets/image23.png)
 
 Flow Description:
 
@@ -207,7 +207,7 @@ Flow Description:
 * The VMS API interface will check if the Voucher is valid and then cancel the Voucher.
 * The VMS API interface will confirm that the Voucher has been canceled.
 
-Alternatives:&#x20;
+Alternatives:
 
 * If the Voucher does not exist, the VMS API will respond that the Voucher does not exist.
 * If the Voucher is already consumed, the VMS API will respond that the Voucher is already consumed.
@@ -241,14 +241,14 @@ Alternatives:&#x20;
 
 ## 10.4 P2G Payments
 
-A P2G payment is a payment made by a person to the government or a government agency in exchange for a service provided.&#x20;
+A P2G payment is a payment made by a person to the government or a government agency in exchange for a service provided.
 
 ### 10.4.1 Description
 
 The following P2G payments using mobile applications are considered.
 
 * Government initiated - request to pay
-* Mobile payments&#x20;
+* Mobile payments
   * With QR codes
   * with reference ID (payment transaction ID)
 * Banking channels
@@ -262,11 +262,11 @@ This workflow requires interaction with the messaging BB an the registration bui
 
 General Notes:
 
-* &#x20;It is assumed that all APIs used are real (sync or async).
+* It is assumed that all APIs used are real (sync or async).
 
 ![Link to Edit Diagram](<../../.gitbook/assets/image7 (1).png>)
 
-Flow Description:&#x20;
+Flow Description:
 
 * Upon registration for a government service, the registration building block sends transaction details to the payment building block which creates and returns a unique payment reference for the payer of the service.
 * The registration building block sends the unique reference number to the payer.
@@ -281,7 +281,7 @@ The above model requires that the payer must provide two pieces of information t
 * A merchant ID. Typically the government would be given a special merchant ID. The payer should be able to select which government service he/she would be paying through the mobile money interface.
 * A reference ID: this is unique and time bound for each transaction.
 * As the bill payment is invoked by inputting the reference number which prompts the retrieval of the payments details in real time from the registration building block, a failed transaction could be triggered by a session time-out or a wrong PIN. In both cases the payer would have to re-initiate the transaction.
-* In the P2G payment in the flow above, the government holds an account with the FSP which would collect the payments on the government behalf and transfer it to the single treasury account on a defined timeline (i.e. daily) in an aggregated way. For reconciliation purposes, the registration BB would need to notify the government of a successful / unsuccessful payment.&#x20;
+* In the P2G payment in the flow above, the government holds an account with the FSP which would collect the payments on the government behalf and transfer it to the single treasury account on a defined timeline (i.e. daily) in an aggregated way. For reconciliation purposes, the registration BB would need to notify the government of a successful / unsuccessful payment.
 
 ### 10.4.4 Sequence Diagram - P2G FSP Payment by USSD Prompt
 
@@ -293,7 +293,7 @@ Flow Description:
 * The payer will see a request coming for the specific service requested with payment details, prompting him / her to authorize the payment by entering the pin code.
 * Upon authorisation, the payer’s account is debited and the government’s connected account is credited in real time.
 * The FSP, in this case the mobile money provider would then notify the success status to the payment building block.
-* This payment differs from the previous P2G mobile money payment as the payment is not initiated by the payer by invoking a bill payment but is initiated by a merchant (in this case the government agency providing the service. Therefore the payer is requested to pay for the service immediately.&#x20;
+* This payment differs from the previous P2G mobile money payment as the payment is not initiated by the payer by invoking a bill payment but is initiated by a merchant (in this case the government agency providing the service. Therefore the payer is requested to pay for the service immediately.
 
 Notes:
 
@@ -304,13 +304,13 @@ The only risk here is a timeout on the USSD or the user keying in the wrong PIN 
 Notes:
 
 * There is small room for error in reading a QR code (unless the payer scans the wrong code).
-* All mobile operator and banking apps need to be able to read the reference in the same way for this to work meaning that a standardised / interoperable QR code needs to be in place at a country level. While this is in place in some Asian countries (i.e. Indonesia, Sri Lanka) where there is a widespread adoption of QR codes, In Africa the uptake of QR codes is significantly lower and standardisation is typically not in place at a country level.&#x20;
+* All mobile operator and banking apps need to be able to read the reference in the same way for this to work meaning that a standardised / interoperable QR code needs to be in place at a country level. While this is in place in some Asian countries (i.e. Indonesia, Sri Lanka) where there is a widespread adoption of QR codes, In Africa the uptake of QR codes is significantly lower and standardisation is typically not in place at a country level.
 
 **10.4.5.1 QR Code Payment Flow Use Case Example**
 
 1. During registration, the registration BB will generate transaction details including amount to be paid by the payer and transaction ID and send to the payments building block.
 2. The payments building block will use the transaction details to initiate a request to pay to the FSP.
-3. The QR payment widget displayed to the payer will have the following  different attributes
+3. The QR payment widget displayed to the payer will have the following different attributes
    1. payment\_entity\_id
    2. amount
    3. currency
@@ -321,4 +321,4 @@ Notes:
 7. The messaging building block sends a transaction confirmation message to the payer.
 
 \
-\
+\\

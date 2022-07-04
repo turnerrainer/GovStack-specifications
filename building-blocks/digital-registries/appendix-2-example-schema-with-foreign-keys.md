@@ -69,4 +69,4 @@
     }
 ```
 
-![Linking databases with foreign keys.](<../../.gitbook/assets/image6 (1).png>)
+![Linking databases with foreign keys.](<../../.gitbook/assets/image6 (1) (1).png>)

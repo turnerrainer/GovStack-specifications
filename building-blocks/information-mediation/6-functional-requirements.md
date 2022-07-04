@@ -4,7 +4,7 @@ The functional requirements section lists the technical capabilities that this b
 
 ## **6.1 Service Access Layer**
 
-![Editable version (github repo / image - link)](<../../.gitbook/assets/image1 (1).png>)
+![Editable version (github repo / image - link)](../../.gitbook/assets/j2.png)
 
 ### **6.1.1 Administrative Interface**
 

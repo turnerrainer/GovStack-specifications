@@ -2,7 +2,7 @@
 
 The functional requirements section lists the technical capabilities that the security building block MUST have. Although API Management and Gateway services are an architectural element, this section of the document also describes the detailed functional requirements for implementing API management, governance and gateway services for GovStack. Explicitly, the communications between all building blocks (BB’s) and applications shall be via open API based access.
 
-The goal of this endeavor is to address primary security concerns centrally and create a consistent way of implementing a modern cloud-ready architecture to publish API’s to 3rd parties (both internal and external), govern and manage the access to API’s both internally and externally by policy and create centralized and secure point of access to each and every API endpoint exposed through GovStack. These functional requirements do not define specific APIs (API’s themselves are implemented by [other building <mark style="color:blue;"></mark> blocks](broken-reference)<mark style="color:blue;">)</mark> - these functional requirements only define the functionality that must be implemented within the bounds of the security building block and how it needs to be applied to other building blocks.
+The goal of this endeavor is to address primary security concerns centrally and create a consistent way of implementing a modern cloud-ready architecture to publish API’s to 3rd parties (both internal and external), govern and manage the access to API’s both internally and externally by policy and create centralized and secure point of access to each and every API endpoint exposed through GovStack. These functional requirements do not define specific APIs (API’s themselves are implemented by [other building blocks](broken-reference/)<mark style="color:blue;">)</mark> - these functional requirements only define the functionality that must be implemented within the bounds of the security building block and how it needs to be applied to other building blocks.
 
 The following features and functions are required (both functional and non-functional) - see elaboration of these below:
 
@@ -111,7 +111,7 @@ The following sequence diagrams depict the basic means by which authentication a
 
 #### **6.4.1.1 User authentication and authorization**
 
-![See https://www.websequencediagrams.com/  for an editable diagram](<../../.gitbook/assets/www.websequencediagrams.com (1).png>)
+![See https://www.websequencediagrams.com/  for an editable diagram](<../../.gitbook/assets/www.websequencediagrams.com (2).png>)
 
 This assumes the user already has an account. Authentication credentials are username or phone number and password.
 
