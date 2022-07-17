@@ -1,10 +1,8 @@
-# 3  Terminology
-
-
+# 3 Terminology
 
 **Authentication**
 
-* The process or action of verifying the identity of a user or process. For the purpose of this project, authentication has been replaced with the term ‘verification’ to allow for a clearer definition and for demarcation with other building blocks.&#x20;
+* The process or action of verifying the identity of a user or process. For the purpose of this project, authentication has been replaced with the term ‘verification’ to allow for a clearer definition and for demarcation with other building blocks.
 
 **Biographic data (or Demographic data)**
 
@@ -38,8 +36,8 @@
 * Can be pertaining to ownership - X owns Z car
 * Can be pertaining to role - X is a doctor
 * Can be pertaining to any other identity association - X is an organ donor, X studied subject Y at Institution Z
-* Can protect persons privacy by disclosing state of attributes without disclosing the attribute itself (ie “is older than 18” don’t need to share the age) &#x20;
-* Can be pertaining to 3rd party claim i.e I claim that something is answerable at a 3rd party verification place&#x20;
+* Can protect persons privacy by disclosing state of attributes without disclosing the attribute itself (ie “is older than 18” don’t need to share the age)
+* Can be pertaining to 3rd party claim i.e I claim that something is answerable at a 3rd party verification place
 
 **Credential**
 
@@ -69,11 +67,12 @@ Taken from WB ID4D, Practitioners Guide, Glossary, [https://id4d.worldbank.org/g
 * There are many different schemes and formats for digital identifiers. The most widely used is Uniform Resource Identifier (URI) and its internationalized version Internationalized Resource Identifier (IRI)—the standard for identifiers on the World Wide Web. OpenID and Light-weight Identity (LID) are two web authentication protocols that use standard HTTP URIs (often called URLs), for example. A Uniform Resource Name (URN) is a persistent, location-independent identifier assigned within the defined namespace.
 * Source: https://en.wikipedia.org/wiki/Digital\_identity
 
-**An electronic identity:**
+**Electronic Identity (eID)**
+
+An electronic identity:
 
 * is a means for the user to prove electronically that they are who they say they are and thus gain access to services;
 * is presented in electronic environment;
-*
   * can appear in a form of certificate, username or email address or phone number;
 * preferably is associated with an electronic identity hardware token;
 * ideally has a hard link back to digital identity.
@@ -90,7 +89,7 @@ A secure electronic identity token
 **Electronic Transaction**
 
 * Is between two or more parties
-  * The parties can be anonymous (privacy is protected if only attributes / details associated with claims are shared).  This may involve a coordination hub that removes metadata that would allow the identity provider to have knowledge of which service was being accessed.
+  * The parties can be anonymous (privacy is protected if only attributes / details associated with claims are shared). This may involve a coordination hub that removes metadata that would allow the identity provider to have knowledge of which service was being accessed.
   * The transaction could be indifferent to the identity of the parties involved, since it is atomic or trust and repudiation is not a concern
   * Trust is needed on the identity of the parties for legal recourse, reversal, or non-repudiation
   * Parties are entities - Persons, Businesses or Things
@@ -109,20 +108,19 @@ An identification system primarily created to manage identity information for th
 \
 Typical capacities include::
 
-* Provide recognition before the law and proof of legal identity.&#x20;
-* The name and nature of legal identification systems varies under national law, but typically includes civil registration systems, national identification systems, population registries, and other foundational identification systems.&#x20;
+* Provide recognition before the law and proof of legal identity.
+* The name and nature of legal identification systems varies under national law, but typically includes civil registration systems, national identification systems, population registries, and other foundational identification systems.
 * Maintains a registry of natural persons and provides issuance and lifecycle management of foundational identities.
-* Those persons are people needing to interact with a country:  citizens, diaspora, foreign residents, foreign workers, refugees, etc.&#x20;
+* Those persons are people needing to interact with a country: citizens, diaspora, foreign residents, foreign workers, refugees, etc.
 * Has an identity issuance and management process that takes care of accuracy of information in order to act as a reliable root of trust.
 * Offers identity assurance in the form of identity verification in the digital realm.
-* Digital identity and electronic identity serve as foundational level attributes. &#x20;
+* Digital identity and electronic identity serve as foundational level attributes.
 
-\
-
+\\
 
 Functional Identity
 
-(Adapted from PRINCIPLES ON IDENTIFICATION, February 2021. Retrieved from: [https://documents1.worldbank.org/curated/en/213581486378184357/pdf/Principles-on-Identification-for-Sustainable-Development-Toward-the-Digital-Age.pdf](https://documents1.worldbank.org/curated/en/213581486378184357/pdf/Principles-on-Identification-for-Sustainable-Development-Toward-the-Digital-Age.pdf))&#x20;
+(Adapted from PRINCIPLES ON IDENTIFICATION, February 2021. Retrieved from: [https://documents1.worldbank.org/curated/en/213581486378184357/pdf/Principles-on-Identification-for-Sustainable-Development-Toward-the-Digital-Age.pdf](https://documents1.worldbank.org/curated/en/213581486378184357/pdf/Principles-on-Identification-for-Sustainable-Development-Toward-the-Digital-Age.pdf))
 
 * Is linked to systems which have a specific function with specific business rules: ie education, healthcare, justice, .. are functional domains which could establish and use functional Identities.
 * Functional identification systems provide official proof of identity and authorization for particular purposes or sectors. This typically includes identification systems that provide voter identification, ration cards, social security numbers, health cards, tax numbers, and more; in some cases these credentials may also be recognized as proof of identity for other purposes or sectors.
@@ -139,7 +137,7 @@ A functional identity system
 * Optionally offers identity assurance based on the credential type.
 * Optionally digital based on the credential type.
 
-**Identity Credential**&#x20;
+**Identity Credential**
 
 * An identity document in a physical or digital form that an identity credential holder may present to authenticate his identity in a physical or electronic interaction;
 * Data, or the physical object upon which the data may reside, that an identity credential holder may present to authenticate his identity in an electronic or online transaction.
@@ -152,9 +150,9 @@ A functional identity system
 
 * Offers mechanisms for verifying a person’s identity locally or by hitting a service offering the verification capabilities
 * Local verification involves trusting the source of the information by (for example) using digital signatures rather than having to go back to the root source of truth (and hence creating a privacy invasive audit record of the check)
-* Identity verification services might be available in synchronous and asynchronous modes and might have real time or non real time responses&#x20;
+* Identity verification services might be available in synchronous and asynchronous modes and might have real time or non real time responses
 * Online identity verification uses a single or multi-factor mechanism. Identity verification involves an identifier and the factors. The identifier may be the UIN or an alias that is associated with the UIN in reference to the eID term described above..
-* A foundational identity system can offer verification services in a centralized or multi-provider (federated/ distributed) model.&#x20;
+* A foundational identity system can offer verification services in a centralized or multi-provider (federated/ distributed) model.
 * In a federated model identity verification has to come from different sources based on the credential used. This means that there is a need for discovery, registration, resolution and routing of verification requests to the appropriate verification service. This needs a web of trust model to be defined. Such a model will also be repeatable for cross border usage where it will be dealing with a federation of foundational identity systems.
 
 **IDV BB**
@@ -169,4 +167,4 @@ A functional identity system
 
 **UIN**
 
-* Stands for Unique Identity Number, this number uniquely identifies a person in the Foundational ID system. UIN are an optional approach and not necessary.&#x20;
+* Stands for Unique Identity Number, this number uniquely identifies a person in the Foundational ID system. UIN are an optional approach and not necessary.
