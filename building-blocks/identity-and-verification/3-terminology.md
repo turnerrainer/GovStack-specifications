@@ -116,9 +116,7 @@ Typical capacities include::
 * Offers identity assurance in the form of identity verification in the digital realm.
 * Digital identity and electronic identity serve as foundational level attributes.
 
-\\
-
-Functional Identity
+**Functional Identity**
 
 (Adapted from PRINCIPLES ON IDENTIFICATION, February 2021. Retrieved from: [https://documents1.worldbank.org/curated/en/213581486378184357/pdf/Principles-on-Identification-for-Sustainable-Development-Toward-the-Digital-Age.pdf](https://documents1.worldbank.org/curated/en/213581486378184357/pdf/Principles-on-Identification-for-Sustainable-Development-Toward-the-Digital-Age.pdf))
 
