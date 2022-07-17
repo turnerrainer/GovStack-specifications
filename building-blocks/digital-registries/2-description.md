@@ -12,4 +12,4 @@ The building block provides capability to capture, store, search, distribute and
 
 The Registries BB is an optional BB for other Govstack BBs that have the need to store information. Any traditional database platform could be used alone or in combination with Digital Registries BB. Digital Registry BB can operate as a standalone service and could be implemented as one centralized instance per domain, containing multiple registries in one instance, or many instances per domain, each database in its own server.
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F39QVhd0jD6S29Isr7KGF%2Fuploads%2F9euSsuSTV9agikly9w2z%2Fdd1.png?alt=media\&token=f8118c2a-066b-47c7-8d7f-24be3a0ee41d)Illustration 1- Digital Registries BB in GovStack sandbox (editable [image](https://drive.google.com/file/d/1YbDj1eOfyiUYQQM6DrCt9zMSKnwbxdFw/view?usp=sharing))
+![Illustration 1- Digital Registries BB in GovStack sandbox](<../../.gitbook/assets/Illustration 1- Digital Registries BB in GovStack sandbox.png>)
