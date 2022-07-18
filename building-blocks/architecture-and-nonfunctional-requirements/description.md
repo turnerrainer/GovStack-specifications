@@ -138,7 +138,7 @@ Adapters are responsible for data and protocol translation, authentication, and 
 
 Here we can see two adapters, one for patient records and another for a tax registry:
 
-![Editable version (github repo / image - link)](../../.gitbook/assets/j2.png)
+![(github repo / image - link)](../../.gitbook/assets/j2.png)
 
 n this example, an HL7 2.5 adapter connects an existing application’s patient record registry, and an SAP SOAP adapter connects an existing applications tax registry to GovStack. Both adapters provide services that are available for use by other building blocks.
 
