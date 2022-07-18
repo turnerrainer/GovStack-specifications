@@ -1,6 +1,8 @@
 # 6 Functional Requirements
 
-The functional requirements section lists the technical capabilities that this building block should have. These requirements should be sufficient to deliver all functionality that is listed in the Key Digital Functionalities section. These functional requirements do not define specific APIs - they provide a list of information about functionality that must be implemented within the building block.
+The functional requirements section lists the technical capabilities that this building block should have. These requirements should be sufficient to deliver all functionality that is listed in the [Key Digital Functionalities](4-key-digital-functionalities.md) section.&#x20;
+
+These functional requirements do not define specific APIs - they provide a list of information about functionality that must be implemented within the building block.
 
 ## **6.1 Service Access Layer**
 
