@@ -29,5 +29,5 @@ This is the technical process of establishing whether or not an authenticated pa
 See more comprehensive descriptions of the workflow terminoloy in the [Workflow and Business Process Automation Building Block](https://docs.google.com/document/d/1TIQ756eWauQLNeSWUqfm5dpDz\_wJsesfZgXBiWXLx9w/edit#heading=h.8dexf2kkoftd) specification.
 
 * (Workflow) Activity - a single step in a workflow process.
-* (Workflow) Process - [a workflow process contains one or many activities.](https://docs.google.com/document/d/1TIQ756eWauQLNeSWUqfm5dpDz\_wJsesfZgXBiWXLx9w/edit#heading=h.6hhe1rg3607o)
+* (Workflow) Process[ - a workflow process contains one or many activities.](https://docs.google.com/document/d/1TIQ756eWauQLNeSWUqfm5dpDz\_wJsesfZgXBiWXLx9w/edit#heading=h.6hhe1rg3607o)
 * (Workflow) Instance - an instance of execution for a workflow process.

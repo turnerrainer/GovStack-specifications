@@ -12,16 +12,16 @@ Each use case is composed of a collection of modules, or building blocks. As you
 ## 4.2 Open <a href="#_hj7wrge29nf5" id="_hj7wrge29nf5"></a>
 
 * Based on open standards
-* Based on Digital Development Principles, see [https://digitalprinciples.org/](https://digitalprinciples.org)  and  [https://digitalinvestmentprinciples.org](https://digitalinvestmentprinciples.org)[/](https://digitalinvestmentprinciples.org)
+* Based on Digital Development Principles, see [https://digitalprinciples.org/](https://digitalprinciples.org) and [https://digitalinvestmentprinciples.org](https://digitalinvestmentprinciples.org)[/](https://digitalinvestmentprinciples.org)
 * Built on open-source software (where possible)
-* Supports open development, see [https://standard.publiccode.net/](https://standard.publiccode.net)&#x20;
+* Supports open development, see [https://standard.publiccode.net/](https://standard.publiccode.net)
 * No vendor lock-in
 * Cloud native (Docker/Docker Compose/OCI containers)
 * Code is openly developed and available to anyone, via Github or Gitlab
 
 ## 4.3 Sustainable <a href="#_5fv1ildee3ef" id="_5fv1ildee3ef"></a>
 
-* Stewardship is critical, see [https://publiccode.net/codebase-stewardship/](https://publiccode.net/codebase-stewardship/)&#x20;
+* Stewardship is critical, see [https://publiccode.net/codebase-stewardship/](https://publiccode.net/codebase-stewardship/)
 * Continuous funding for maintenance, development and evolution
 * Attractive to ICT industry and individual developers in deployment environment (incentives must be aligned)
 * Lower cost than commercial solutions due to shared development costs
@@ -59,28 +59,10 @@ Each use case is composed of a collection of modules, or building blocks. As you
 ## 4.7 Robust <a href="#_jgyljayvwagf" id="_jgyljayvwagf"></a>
 
 * Operates in low-resource environments:
-  * Occasional power&#x20;
+  * Occasional power
   * Low bandwidth
   * Low-reliability connectivity
 * Easily scalable for high availability and reliability
 * API-only based decoupling
 * Asynchronous communications pattern decoupled through rooms is ideal
 * Eventual consistency for data
-
-***
-
-Docker has become a bit proprietary. May I suggest that CRIO based container orchestration be adopted as it defines the open standard.
-
-Seems sensible to me!
-
-Or offline based systems.
-
-Digital Registries BB is not working when there is no power. Can we fulfill this requirement with cloud?
-
-As significant of part of population does not have access AT ALL to connectivity, workarounds must be in place when "NO bandwidth"
-
-Can we consider that paper process is  a workaround?
-
-If not enough bandwidth for classical apps, what exists could be leveraged already(ie edge/2G), then offline mode could be also used which means keep using digital solutions but have to move data physically (what’s used in elections, we can call it digital offline). Paper could be used also but it’s not better than digital offline and can be source of errors or fraud.
-
-Digital Registries BB is not working when there is no power. Can we fulfill this requirement with cloud?
