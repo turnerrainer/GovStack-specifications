@@ -125,12 +125,12 @@ Each block must be composed of open-source software unless there are no alternat
 
 See [https://en.wikipedia.org/wiki/Conway%27s\_law](https://en.wikipedia.org/wiki/Conway's\_law)
 
-5.32 MUST Use Standardized Configuration
+## 5.32 MUST Use Standardized Configuration
 
 * Configuration MUST only happen through environment variables or secrets
 * Allows visual construction of blocks, perhaps with domain modeling tools
 
-5.33 MUST Use Standardized Data Formats for Interchange
+## 5.33 MUST Use Standardized Data Formats for Interchange
 
 JSON is used for data models/services. See [https://www.json.org/json-en.html](https://www.json.org/json-en.html)
 
