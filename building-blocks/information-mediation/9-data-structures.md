@@ -98,4 +98,4 @@ A **room** is a GovStack application that handles the distribution of events. Ea
 
 A subscriber is a GovStack application that can process events. Subscribers are independent of each other and their business logic is different (as rule). Each subscriber processes events from their own perspective.
 
-Schema description: [https://github.com/aleksander-reitsakas/InformationMediatorAPI/blob/main/IM/schemas/broadcast.json](https://github.com/aleksander-reitsakas/InformationMediatorAPI/blob/main/IM/schemas/broadcast.json)
+Schema description: [https://github.com/GovStackWorkingGroup/BuildingBlockAPI/blob/main/IM/schemas/broadcast.json](https://github.com/GovStackWorkingGroup/BuildingBlockAPI/blob/main/IM/schemas/broadcast.json)
