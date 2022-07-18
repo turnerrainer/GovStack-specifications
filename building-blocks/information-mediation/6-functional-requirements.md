@@ -60,7 +60,8 @@ These functional requirements do not define specific APIs - they provide a list 
   * Using REST, make a valid HTTP request to the local Information Mediator security server with headers which identifies itself at the application level.
   * The components of the request must be:
     * Security server URL
-    * API version Instance (e.g., Country)
+    * API version
+    * Instance (e.g., Country)
     * Domain of member
     * Member (e.g., Ministry of X)
     * Application
