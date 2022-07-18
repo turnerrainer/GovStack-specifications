@@ -12,7 +12,7 @@ These functional requirements do not define specific APIs - they provide a list 
 
 * There must be an administrative portal that allows an IM administrator (with appropriate authentication) to register/deregister members, applications, and services.
   * OpenIAM (or other IAM solution) must be able to create/edit/delete admin users for the IM interface.
-    * [Security BB Spec 1.0.1 section 6-1](https://www.govstack.global/wp-content/uploads/2021/08/Security\_Building\_Block\_Definition\_1.0.1.pdf)
+    * [Security BB Spec 1.0.1 section 6-1](../security-requirements/6-security-building-block-modules.md)
   * There must be a security-server level interface that allows an administrator for a single security server to manage members, applications, and services that live under a single security server.
 
 ### **6.1.2 Administrative User Roles**
