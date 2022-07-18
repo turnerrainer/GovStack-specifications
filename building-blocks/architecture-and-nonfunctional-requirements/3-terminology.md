@@ -6,7 +6,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ## **3.2 Building Block**
 
-1. From this document: “Building blocks are software modules that can be deployed and combined in a standardized manner. Each building block is capable of working independently, but they can be combined to do much more.” Read more: [above. (And please read this!)](https://docs.google.com/document/d/12b696fHlOAAHygFF5-XxUJkFyFjMIV99VDKZTXnnAkg/edit#heading=h.tnti6f22mlul)
+1. From this document: “Building blocks are software modules that can be deployed and combined in a standardized manner. Each building block is capable of working independently, but they can be combined to do much more.” Read more: [above. (And please read this!)](description.md#2.3-building-blocks)
 2. An application which provides re-usable interfaces:
    1. An **admin-only form builder** which facilitates building user interfaces (e.g., select questions to be displayed in a maternal-and-child-health registration process)
    2. **User interfaces** (i.e., forms) which can be used in lieu of individual end-user apps building their own forms (e.g. I’m building a _new_ maternal and child health application; I’d like to use a registration screenflow that’s been pre-built in the registration building block as part of a larger, _composed_ application.)
