@@ -1,6 +1,6 @@
 # 4 Key Digital Functionalities
 
-At a high level, these are the key functionalities that must or should be provided by any software implementation that plays the role of an Information Mediator. These key digital functionalities have been cross-checked and validated with those provided by the OpenHIE community (see [below](https://docs.google.com/document/d/1PhAUsLhQnVwqDjnkTIl9XXi7Yghtn1TlBvOEt2aoNEw/edit#heading=h.u90fwae6a84c) for details) and the “OpenHIE” column in the yellow table provides a cross-reference to the corresponding OpenHIE specification.
+At a high level, these are the key functionalities that must or should be provided by any software implementation that plays the role of an Information Mediator. These key digital functionalities have been cross-checked and validated with those provided by the OpenHIE community (see [below](./) for details) and the “OpenHIE” column in the yellow table provides a cross-reference to the corresponding OpenHIE specification.
 
 ## **4.1 Summary**
 
