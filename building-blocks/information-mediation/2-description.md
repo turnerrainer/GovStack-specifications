@@ -1,5 +1,7 @@
 # 2 Description
 
+The functional requirements section lists the technical capabilities that this building block should have. These requirements should be suﬃcient to deliver all functionality that is listed in the Key Digital Functionalities section.
+
 The information mediator (IM) building block (BB) provides a gateway for exchange of data and services among GovStack Building blocks through open-API rest based interfaces to ensure interoperability and implementation of standards. The IM provides mechanisms for applications/BBs to publish and consume services and event notifications among other GovStack BBs.
 
 IM services act as a channel through which BBs and external applications can connect to services exposed by other BBs such as registry services, identity services and payment services. The IM BB provides a second service, as a broadcasting channel for notification of events among the connected applications in a publisher-subscriber (PubSub) model. The IM BB also maintains a log of transactions (e.g., requests, events), as well as handling communication errors between BBs and/or other applications via the PubSub service. This component may employ other core components, such as registries, repositories, etc. By allowing different applications to exchange information, it can act as a mechanism to encourage or enforce best practices, data standards around PubSub, and data-sharing policies in cross-facility work-flows among business processes.
@@ -16,7 +18,6 @@ The IM BB does NOT handle ingress and egress access from external applications t
 
 ## **2.3 Future Scope**
 
-### **2.3.1 Consider broader existing standards.**&#x20;
+### **2.3.1 Consider broader existing standards.**
 
 See section on [Gov.UK’s API Management Strategy Document](https://docs.google.com/document/d/1PhAUsLhQnVwqDjnkTIl9XXi7Yghtn1TlBvOEt2aoNEw/edit#heading=h.92q4f4qet5u6).
-
