@@ -95,7 +95,7 @@ MUST support caching/retries
 * Resource manipulation through representations When a client holds a representation of a resource, including any [metadata ](https://en.wikipedia.org/wiki/Metadata)attached, it has enough information to modify or delete the resource's state.
 * Self-descriptive messages Each message includes enough information to describe how to process the message. For example, which parser to invoke can be specified by a [media type](https://en.wikipedia.org/wiki/Media\_type).
 
-See https://en.wikipedia.org/wiki/Representational\_state\_transfer for more.
+See [https://en.wikipedia.org/wiki/Representational\_state\_transfer](https://en.wikipedia.org/wiki/Representational\_state\_transfer) for more.
 
 ## 5.26 MUST be Asynchronous First
 
