@@ -20,4 +20,4 @@ The IM BB does NOT handle ingress and egress access from external applications t
 
 ### **2.3.1 Consider broader existing standards.**
 
-See section on [Gov.UK’s API Management Strategy Document](https://docs.google.com/document/d/1PhAUsLhQnVwqDjnkTIl9XXi7Yghtn1TlBvOEt2aoNEw/edit#heading=h.92q4f4qet5u6).
+See section on [Gov.UK’s API Management Strategy Document](4-key-digital-functionalities.md#4.3.3.2-gov.uks-api-management-strategy-document).
