@@ -1,7 +1,5 @@
 # 14 Annexes and Appendices
 
-
-
 ## 14.1 Detailed Technical Flows
 
 The detailed flows section is a description of how various clients (members, applications, services) are registered and managed on the information mediator.
@@ -14,7 +12,7 @@ A “member” on the <mark style="background-color:purple;">information mediato
 
 The security server client registration passes following states:
 
-![Source in github: https://github.com/GovStackWorkingGroup/BuildingBlockAPI/blob/main/IM/diagrams/state-machine-diagram-for-registration-requests.png](<../../../.gitbook/assets/dd1 (1).png>)
+![Source in github: https://github.com/GovStackWorkingGroup/BuildingBlockAPI/blob/main/IM/diagrams/state-machine-diagram-for-registration-requests.png](<../../.gitbook/assets/dd1 (1).png>)
 
 ### 14.1.3 Adding a Security Server Client
 
@@ -89,11 +87,10 @@ HTTP version 1.1 is used by the protocol as described in \[[RFC2616](https://too
 
 X-GovStack-Client: {client}
 
-* **{http-request-method}** can be one of the request methods defined in \[[RFC7231](https://tools.ietf.org/html/rfc7231)]. For example GET, POST, PUT and DELETE.
+* **{http-request-method}** can be one of the request methods defined in \[[RFC7231](https://tools.ietf.org/html/rfc7231)]. For example GET, POST, PUT and DELETE.s
 * **{protocol-version}**: specifies the major version of the Service Access gateway Message Protocol for REST. For the initial version r1 MUST be used.
 * **{client}**: specifies the member/application that is used as a service client - an entity that initiates the service call. The identifier consists of the following parts: \[GovStack instance]/\[member class]/\[member code]/\[application code]. Including the application code is OPTIONAL.
 * **{serviceId}** identifies the service that is registered under {provider-application} and invoked by the request. {serviceId} contains the following parts:
-*
   * \[GovStack instance]/\[member class]/\[member code]/\[application code]/\[service code]. Including the application code is OPTIONAL.
   * The **{serviceId}** is mapped to an actual service URL by the Security Server (see the example below).
 * **\[path]** contains the relative path to the service to be called
@@ -109,9 +106,6 @@ GET /r1/INSTANCE/CLASS2/MEMBER2/APPLICATION2/BARSERVICE/v1/bar/zyggy?quu=1
 
 X-GovStack-Client: INSTANCE/CLASS1/MEMBER1/APPLICATION1
 
-\
-
-
 Breakdown of the request URI:
 
 * **{http-request-method}**: GET
@@ -124,8 +118,6 @@ Breakdown of the request URI:
 Assuming that the serviceId maps to the URL [https://barservice.example.org/](https://barservice.example.org), the provider will see the request GET https://barservice.example.org/v1/bar/zyggy?quu=1. The reason for naming the service independently of the path is that the same provider could have a fooservice as well ([https://fooservice.example.org/](https://fooservice.example.org)), in which case it would be difficult to tell the services apart if the path was the service Id (both services could have paths like "/v1/...") unless the fooservice was attached to a separate application.
 
 On the Security Server side the incoming request URIs MUST be validated. Input strings from the user can't be trusted. Lengths of the strings need to be checked and maximum length or the request URI needs to be limited. Although the URI standard does not specify a maximum size of the URL, most clients enforce an arbitrary limit of 2000 characters. The Security Server implementation MAY do this as well. Sending data that is difficult to express in a hierarchical manner, and especially data that is larger than this 2000 character limit, should be transmitted in the body of the request.
-
-
 
 #### **14.1.6.2 Use of HTTP Headers**
 
@@ -169,7 +161,7 @@ X-GovStack-Request-Id: f92591a3-6bf0-49b1-987b-0dd78c034cc3
 * The request message SHOULD NOT contain the request hash header.
 
 The response message returned by a service provider SHOULD NOT contain the request hash header. If the response message contains the request hash header, the service provider's Security Server MUST ignore the field and replace it with the created field.\
-X-GovStack-Request-Hash: 14sEri8SmLNy/DJyTob0ZddAskmdRy5ZUyhbr33iLkaA+gLpWcivUH16fzbuIs7hhs2AnA4lJDloyIihXMlVQA==&#x20;
+X-GovStack-Request-Hash: 14sEri8SmLNy/DJyTob0ZddAskmdRy5ZUyhbr33iLkaA+gLpWcivUH16fzbuIs7hhs2AnA4lJDloyIihXMlVQA==
 
 **Content-Type header**
 
@@ -180,7 +172,7 @@ X-GovStack-Request-Hash: 14sEri8SmLNy/DJyTob0ZddAskmdRy5ZUyhbr33iLkaA+gLpWcivUH1
 If Content-Type header is included in the response message by the provider information system, it MUST be transported unmodified through Service Access gateway to the consumer information system\
 Content-Type: application/json; charset=utf-8
 
-&#x20;Content-Type: multipart/form-data; boundary=something
+Content-Type: multipart/form-data; boundary=something
 
 In case the service consumer does not provide the Content-Type header (or some of its components), the request message is anyhow passed to the provider service which can decide what to do with it.
 
@@ -210,9 +202,9 @@ X-GovStack-Security-Server: INSTANCE/MEMBERCLASS/MEMBERCODE/SERVERCODE
 \
 X-GovStack-Id: fa2e18a5-c2cb-4d09-b994-f57727f7c3fb
 
-&#x20;X-GovStack-UserId: EE12345678901
+X-GovStack-UserId: EE12345678901
 
-&#x20;X-GovStack-Issue: MT324223MSD
+X-GovStack-Issue: MT324223MSD
 
 **X-GovStack error header**
 
@@ -224,16 +216,16 @@ X-GovStack-Id: fa2e18a5-c2cb-4d09-b994-f57727f7c3fb
 User defined HTTP headers (i.e. the headers not mentioned in \[[https://en.wikipedia.org/wiki/List\_of\_HTTP\_header\_fields](https://en.wikipedia.org/wiki/List\_of\_HTTP\_header\_fields)] or this document) MUST be passed to the recipient unmodified by Security Server.\
 X-Powered-By: PHP/5.2.17
 
-&#x20;X-Pingback: https://example.com/xmlrpc.php
+X-Pingback: https://example.com/xmlrpc.php
 
 **Cache headers**
 
-Service Access gateway does not cache messages.&#x20;
+Service Access gateway does not cache messages.
 
 Cache headers MUST be passed as-is and the consumer/provider MAY take advantage of this information.\
 Cache-Control: no-cache, no-store, must-revalidate
 
-&#x20;Pragma: no-cache
+Pragma: no-cache
 
 **Cross-origin resource sharing**
 
@@ -298,8 +290,7 @@ Service response
 
 Service response code
 
-200\
-
+200\\
 
 Service response headers
 
@@ -317,8 +308,7 @@ X-GovStack-request-id: f92591a3-6bf0-49b1-987b-0dd78c034cc3
 
 X-GovStack-request-hash: Xvx9V2U5c5RhDUiXpVLtW7L8vTd5cM2IOBU2n9efEk7/m3ECKyGAp7yTpJpTWpo6HcmwSaGO+cinxMVKjxJTOQ==
 
-Content-Length: 1148\
-
+Content-Length: 1148\\
 
 **PUT Request and Response**
 
@@ -334,51 +324,49 @@ curl -X PUT "https://petstore.niis.org/v2/pets/5657082955040009" -H "accept: app
 
 Service called through Service Access gateway
 
-curl -X PUT "https://{securityserver}/r1/{serviceId}/v2/pets/5657082955040009" -H "accept: application/json" -H "Content-Type: application/json"  -H "X-GovStack-Client: {client}" -d '{ "id": 0, "category": { "id": 0, "name": "string" }, "name": "doggie", "photoUrls": \[ "string" ], "tags": \[ { "id": 0, "name": "string" } ], "status": "available"}'
+curl -X PUT "https://{securityserver}/r1/{serviceId}/v2/pets/5657082955040009" -H "accept: application/json" -H "Content-Type: application/json" -H "X-GovStack-Client: {client}" -d '{ "id": 0, "category": { "id": 0, "name": "string" }, "name": "doggie", "photoUrls": \[ "string" ], "tags": \[ { "id": 0, "name": "string" } ], "status": "available"}'
 
 Service response
 
 {
 
-&#x20; "id": 5657082955040009,
+"id": 5657082955040009,
 
-&#x20; "category": {
+"category": {
 
-&#x20;   "id": 0,
+"id": 0,
 
-&#x20;   "name": "string"
+"name": "string"
 
-&#x20; },
+},
 
-&#x20; "name": "doggie",
+"name": "doggie",
 
-&#x20; "photoUrls": \[
+"photoUrls": \[
 
-&#x20;   "string"
+"string"
 
-&#x20; ],
+],
 
-&#x20; "tags": \[
+"tags": \[
 
-&#x20;   {
+{
 
-&#x20;     "id": 0,
+"id": 0,
 
-&#x20;     "name": "string"
+"name": "string"
 
-&#x20;   }
+}
 
-&#x20; ],
+],
 
-&#x20; "status": "available"
+"status": "available"
 
 }
 
 Service response code
 
 200
-
-
 
 Service response headers
 
@@ -395,8 +383,6 @@ X-GovStack-request-id: f92591a3-6bf0-49b1-987b-0dd78c034cc3
 X-GovStack-request-hash: MOEfTqBjdqYiX3db9hxJ6JvHvCpYqfA6t0Uhdv6g2I29fMY8ld4CbN8tslj6mUQPXoRaUdPm7NdZeAYTg6zi+A==
 
 Content-Length: 0
-
-
 
 **POST Request and Response**
 
@@ -418,44 +404,43 @@ Service response
 
 {
 
-&#x20; "id": 5657082955040122,
+"id": 5657082955040122,
 
-&#x20; "category": {
+"category": {
 
-&#x20;   "id": 0,
+"id": 0,
 
-&#x20;   "name": "string"
+"name": "string"
 
-&#x20; },
+},
 
-&#x20; "name": "doggie",
+"name": "doggie",
 
-&#x20; "photoUrls": \[
+"photoUrls": \[
 
-&#x20;   "string"
+"string"
 
-&#x20; ],
+],
 
-&#x20; "tags": \[
+"tags": \[
 
-&#x20;   {
+{
 
-&#x20;     "id": 0,
+"id": 0,
 
-&#x20;     "name": "string"
+"name": "string"
 
-&#x20;   }
+}
 
-&#x20; ],
+],
 
-&#x20; "status": "available"
+"status": "available"
 
 }
 
 Service response code
 
-200\
-
+200\\
 
 Service response headers
 
@@ -471,8 +456,7 @@ X-GovStack-request-id: f92591a3-6bf0-49b1-987b-0dd78c034cc3
 
 X-GovStack-request-hash: VCNZdwTxl7m3XC6Mpfw1H6qJUtBcm3Y6tfCvg5b3W/fb2RRXsLF9wftR3u6ElclE+RFaiAN/OkSz02fAYbNKaw==
 
-Content-Length: 0\
-
+Content-Length: 0\\
 
 **DELETE Request and Response**
 
@@ -488,7 +472,7 @@ curl -X DELETE "https://petstore.niis.org/v2/pets/1124" -H "accept: application/
 
 Service called through Service Access gateway
 
-curl -X DELETE "https://{securityserver}/r1/{serviceId}/v2/pets/1124" -H "accept: application/json"  -H "X-GovStack-Client: {client}"
+curl -X DELETE "https://{securityserver}/r1/{serviceId}/v2/pets/1124" -H "accept: application/json" -H "X-GovStack-Client: {client}"
 
 Service response
 
@@ -496,8 +480,7 @@ Service response code
 
 200
 
-\
-
+\\
 
 Service response headers
 
@@ -513,8 +496,7 @@ X-GovStack-request-id: f92591a3-6bf0-49b1-987b-0dd78c034cc3
 
 X-GovStack-request-hash: lQBoldcyuI3BerjHfkleRQ45AyYoFlF7zXSN6yH/RwvTNWEcsTQM18EfqMxYfdkyGGB26oxAjAWv/AcfmZF7og==
 
-Content-Length: 0\
-
+Content-Length: 0\\
 
 **POST Request with Attachments and Response**
 
@@ -536,18 +518,17 @@ Service response
 
 {
 
-&#x20; "code":200,
+"code":200,
 
-&#x20; "type":null,
+"type":null,
 
-&#x20; "message":"additionalMetadata: null\nFile uploaded to ./file, 170025 bytes"
+"message":"additionalMetadata: null\nFile uploaded to ./file, 170025 bytes"
 
 }
 
 Service response code
 
-200\
-
+200\\
 
 Service response headers
 
@@ -586,13 +567,11 @@ The serviceId MUST contain the identifier of the target service provider and the
 
 Request example
 
-GET /r1/INSTANCE/CLASS2/MEMBER2/APPLICATION2/listMethods\
-
+GET /r1/INSTANCE/CLASS2/MEMBER2/APPLICATION2/listMethods\\
 
 HTTP request headers
 
-X-GovStack-Client: INSTANCE/CLASS1/MEMBER1/APPLICATION1\
-
+X-GovStack-Client: INSTANCE/CLASS1/MEMBER1/APPLICATION1\\
 
 The body of the response message MUST contain a list of services provided by the service provider (in case of listMethods) or open to the given client (in case of allowedMethods). The response SHALL NOT contain names of the metainfo services.
 
@@ -614,8 +593,7 @@ The query parameters must contain serviceCode=xxx where xxx is the service code 
 
 Request example
 
-GET /r1/INSTANCE/CLASS2/MEMBER2/APPLICATION2/getOpenAPI?serviceCode=listFirms\
-
+GET /r1/INSTANCE/CLASS2/MEMBER2/APPLICATION2/getOpenAPI?serviceCode=listFirms\\
 
 HTTP request headers
 
