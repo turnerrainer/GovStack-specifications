@@ -195,4 +195,4 @@ Include the right to be forgotten account deletion), privacy requirements to pro
 
 ## 5.46 MUST Implement Existing Standards Where Possible
 
-Building blocks and building block solutions MUST leverage existing standards, especially those listed in the Standards section below.
+Building blocks and building block solutions MUST leverage existing standards, especially those listed in the [Standards section](6-standards.md) below.
