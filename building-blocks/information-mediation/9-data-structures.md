@@ -46,7 +46,7 @@ Name of CA enumeration
 
 #### 9.2.2.2 Application
 
-Application: [https://github.com/aleksander-reitsakas/InformationMediatorAPI/blob/main/IM/schemas/application.json](https://github.com/aleksander-reitsakas/InformationMediatorAPI/blob/main/IM/schemas/application.json)
+Application: [https://github.com/GovStackWorkingGroup/BuildingBlockAPI/blob/main/IM/schemas/application.json](https://github.com/GovStackWorkingGroup/BuildingBlockAPI/blob/main/IM/schemas/application.json)
 
 Application:
 
@@ -56,7 +56,7 @@ TLS certificate cert
 
 #### 9.2.2.3 Service
 
-Service: [https://github.com/GovStackWorkingGroup/BuildingBlockAPI/blob/main/IM/schemas/application.json](https://github.com/GovStackWorkingGroup/BuildingBlockAPI/blob/main/IM/schemas/application.json)
+Service: [https://github.com/GovStackWorkingGroup/BuildingBlockAPI/blob/main/IM/schemas/service.json](https://github.com/GovStackWorkingGroup/BuildingBlockAPI/blob/main/IM/schemas/service.json)
 
 Services:
 
