@@ -140,7 +140,7 @@ Here we can see two adapters, one for patient records and another for a tax regi
 
 ![(github repo / image - link)](../../.gitbook/assets/j2.png)
 
-n this example, an HL7 2.5 adapter connects an existing application’s patient record registry, and an SAP SOAP adapter connects an existing applications tax registry to GovStack. Both adapters provide services that are available for use by other building blocks.
+In this example, an HL7 2.5 adapter connects an existing application’s patient record registry, and an SAP SOAP adapter connects an existing applications tax registry to GovStack. Both adapters provide services that are available for use by other building blocks.
 
 If an existing application sends events, they are exposed as webhooks in the adapter’s OpenAPI specification like other APIs. This allows any GovStack building block to be notified when the event occurs.
 
@@ -150,7 +150,7 @@ Talk about terminology management as part of workflow/adapters, e.g. [https://op
 
 API gateways connect citizens and existing applications to GovStack building blocks. Here, a public API gateway provides GovStack resources to citizens, while a private API gateway provides GovStack resources to existing applications:
 
-![Editable version (github repo / image - link)](<../../.gitbook/assets/image4 (4).png>)
+![(github repo / image - link)](<../../.gitbook/assets/image4 (4).png>)
 
 In this example, a hospital information management system can use the Citizen ID/Auth building block to authenticate a patient’s foundational ID. Likewise, citizens access government services via external mobile or web applications calling through a shared public API gateway.
 
