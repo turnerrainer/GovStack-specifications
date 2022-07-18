@@ -24,7 +24,7 @@ See [https://www.tiobe.com/tiobe-index/](https://www.tiobe.com/tiobe-index/)
 
 ## 5.7 SHOULD Follow the Amazon API Mandate
 
-See https://api-university.com/blog/the-api-mandate/
+See [https://api-university.com/blog/the-api-mandate/](https://api-university.com/blog/the-api-mandate/)
 
 1. All teams will henceforth expose their data and functionality through service interfaces.
 2. Teams must communicate with each other through these interfaces.
