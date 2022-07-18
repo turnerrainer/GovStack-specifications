@@ -55,7 +55,9 @@ As shown here: e.g. /api/v1 and /api/v2
 
 ## 5.15 API Calls MUST Include Transaction/Trace/Correlation IDs
 
-## 5.16 MUST Use Semantic Versioning See https://semver.org/
+## 5.16 MUST Use Semantic Versioning
+
+See [https://semver.org/](https://semver.org/)
 
 ## 5.17 MUST Provide Configuration Only through the Environment
 
