@@ -69,7 +69,9 @@ Some blocks may require the use of security keys. Those that do must have clearl
 
 ## 5.19 Documentation MUST be Generated from Code and/or Checked in Alongside Source Code
 
-## 5.20 MUST Not Use Shared Database/Filesystem/Memory interconnection uses APIs only
+## 5.20 MUST Not Use Shared Database/Filesystem/Memory
+
+interconnection uses APIs only
 
 ## 5.21 Databases MUST Not Include Business Logic
 
