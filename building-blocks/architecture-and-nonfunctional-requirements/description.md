@@ -160,6 +160,6 @@ Any number of API gateways can be added to expose various GovStack services to u
 
 This shows a complete GovStack deployment with API gateways for citizen access via web or mobile and for existing applications to be able to call GovStack APIs on demand. The workflow building block is used as an adapter, exposing existing applications as GovStack resources via OpenAPI:
 
-![(open in https://app.diagrams.net/)](<../../.gitbook/assets/image6 (2).png>)
+![Editable version (open in https://app.diagrams.net/)](<../../.gitbook/assets/image6 (2).png>)
 
 Here, citizens and existing applications are provided API access for requests into GovStackvia a common API Gateway, while the workflow building block/adapter provides outgoing API access to existing applications from GovStack building blocks.
