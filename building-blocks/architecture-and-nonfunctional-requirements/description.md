@@ -48,7 +48,8 @@ The SDG digital framework has formally defined criteria. Building blocks MUST me
 * Facilitates one or more generic Workflows
 * Applicable to multiple SDG Use Cases across multiple sectors
 * Interoperable with other ICT Building Blocks
-* Designed for Scalability Designed for Extensibility
+* Designed for Scalability&#x20;
+* Designed for Extensibility
 * Standards Based Conformance or Compliance
 
 See [https://drive.google.com/file/d/1Ix2A3W\_vpvaRvKyek524kCuB5MKcRFd3/view?usp=sharing](https://drive.google.com/file/d/1Ix2A3W\_vpvaRvKyek524kCuB5MKcRFd3/view?usp=sharing) for details, including a checklist.
