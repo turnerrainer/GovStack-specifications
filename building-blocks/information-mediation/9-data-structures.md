@@ -28,7 +28,7 @@ Members can browse a directory of Services available in Mediator BB. Each servic
 
 #### 9.2.2.1 Member
 
-Member: [https://github.com/aleksander-reitsakas/InformationMediatorAPI/blob/main/IM/schemas/member.json](https://github.com/aleksander-reitsakas/InformationMediatorAPI/blob/main/IM/schemas/member.json)
+Member: [https://github.com/GovStackWorkingGroup/BuildingBlockAPI/blob/main/IM/schemas/member.json](https://github.com/GovStackWorkingGroup/BuildingBlockAPI/blob/main/IM/schemas/member.json)
 
 Member:
 
